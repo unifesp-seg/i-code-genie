@@ -3,7 +3,7 @@
     <groupId>br.unifesp.ict.seg</groupId>
     <artifactId>i-code-genie</artifactId>
     <name>i-code-genie</name>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -71,7 +71,7 @@
 		<dependency>
 			<groupId>br.unifesp.ict.seg</groupId>
 			<artifactId>genie-search-api</artifactId>
-			<version>1.5.0</version>
+			<version>1.6.1</version>
 		</dependency>
 
 		<!-- commons-lang -->
