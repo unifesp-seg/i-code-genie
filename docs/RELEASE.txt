@@ -1,0 +1,33 @@
+********************
+Version 1.0.2-RC-01
+
+Fixes:
+
+	- A passagem de parâmentros não ceu certo via System Properties
+
+Features:
+
+	- A passagem de parâmentros via args do método main()
+	- genie-search-api-1.6.3
+
+
+********************
+Version 1.0.1-RC-01
+
+Fixes:
+
+Features:
+
+	- Permitir passar parâmetros de configuração via System Properties
+
+
+********************
+Version 1.0.0-RC-01
+
+Fixes:
+
+Features:
+
+	- Criação da pasta docs
+	- Criação deste arquivo: RELEASE.txt
+

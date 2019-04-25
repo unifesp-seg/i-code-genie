@@ -1,220 +1,82 @@
-Wed, 24/04/2019 10:13:10 - Genie Search API
-Wed, 24/04/2019 10:13:10 - 
-Wed, 24/04/2019 10:13:10 - file:/C:/Users/adrianocarv/.m2/repository/br/unifesp/ict/seg/genie-search-api/1.5.0/genie-search-api-1.5.0.jar!/geniesearchapi.properties
-Wed, 24/04/2019 10:13:10 - 
-Wed, 24/04/2019 10:13:10 - input-repo = D:\Sourcerer_portable\repositories\sf_110
-Wed, 24/04/2019 10:13:10 - database-url = jdbc:mysql://localhost:3306/sf_110
-Wed, 24/04/2019 10:13:10 - database-user = root
-Wed, 24/04/2019 10:13:10 - database-password = ***
-Wed, 24/04/2019 10:13:10 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 10:13:10 - 
-Wed, 24/04/2019 10:13:10 - Genie Search API
-Wed, 24/04/2019 10:13:10 - 
-Wed, 24/04/2019 10:13:10 - 
-Wed, 24/04/2019 10:13:10 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\sf_110\solr-repo\data\index
-Wed, 24/04/2019 10:13:10 - Solr Index Path configurado: D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Wed, 24/04/2019 10:13:10 - 
-Wed, 24/04/2019 10:21:45 - Genie Search API
-Wed, 24/04/2019 10:21:45 - 
-Wed, 24/04/2019 10:21:45 - file:/C:/Users/adrianocarv/.m2/repository/br/unifesp/ict/seg/genie-search-api/1.5.0/genie-search-api-1.5.0.jar!/geniesearchapi.properties
-Wed, 24/04/2019 10:21:45 - 
-Wed, 24/04/2019 10:21:45 - input-repo = D:\Sourcerer_portable\repositories\sf_110
-Wed, 24/04/2019 10:21:45 - database-url = jdbc:mysql://localhost:3306/sf_110
-Wed, 24/04/2019 10:21:45 - database-user = root
-Wed, 24/04/2019 10:21:45 - database-password = ***
-Wed, 24/04/2019 10:21:45 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 10:21:45 - 
-Wed, 24/04/2019 10:21:45 - Genie Search API
-Wed, 24/04/2019 10:21:45 - 
-Wed, 24/04/2019 10:21:45 - 
-Wed, 24/04/2019 10:21:45 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\sf_110\solr-repo\data\index
-Wed, 24/04/2019 10:21:45 - Solr Index Path configurado: D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Wed, 24/04/2019 10:21:45 - 
-Wed, 24/04/2019 10:55:32 - Genie Search API
-Wed, 24/04/2019 10:55:32 - 
-Wed, 24/04/2019 10:55:32 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 10:55:32 - 
-Wed, 24/04/2019 10:55:32 - input-repo = D:\Sourcerer_portable\repositories\sf_110
-Wed, 24/04/2019 10:55:32 - database-url = jdbc:mysql://localhost:3306/sf_110
-Wed, 24/04/2019 10:55:32 - database-user = root
-Wed, 24/04/2019 10:55:32 - database-password = ***
-Wed, 24/04/2019 10:55:32 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 10:55:32 - 
-Wed, 24/04/2019 10:55:32 - Genie Search API
-Wed, 24/04/2019 10:55:32 - 
-Wed, 24/04/2019 10:55:33 - 
-Wed, 24/04/2019 10:55:33 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\sf_110\solr-repo\data\index
-Wed, 24/04/2019 10:55:33 - Solr Index Path configurado: D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Wed, 24/04/2019 10:55:33 - 
-Wed, 24/04/2019 11:31:36 - Genie Search API
-Wed, 24/04/2019 11:31:36 - 
-Wed, 24/04/2019 11:31:36 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 11:31:36 - 
-Wed, 24/04/2019 11:31:36 - input-repo = D:\Sourcerer_portable\repositories\sf_110
-Wed, 24/04/2019 11:31:36 - database-url = jdbc:mysql://localhost:3306/sf_110
-Wed, 24/04/2019 11:31:36 - database-user = root
-Wed, 24/04/2019 11:31:36 - database-password = ***
-Wed, 24/04/2019 11:31:36 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 11:31:36 - 
-Wed, 24/04/2019 11:31:36 - Genie Search API
-Wed, 24/04/2019 11:31:36 - 
-Wed, 24/04/2019 11:31:36 - 
-Wed, 24/04/2019 11:31:36 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\sf_110\solr-repo\data\index
-Wed, 24/04/2019 11:31:36 - Solr Index Path configurado: D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Wed, 24/04/2019 11:31:36 - 
-Wed, 24/04/2019 11:36:41 - Genie Search API
-Wed, 24/04/2019 11:36:41 - 
-Wed, 24/04/2019 11:36:41 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 11:36:41 - 
-Wed, 24/04/2019 11:36:41 - input-repo = D:\Sourcerer_portable\repositories\sf_110
-Wed, 24/04/2019 11:36:41 - database-url = jdbc:mysql://localhost:3306/sf_110
-Wed, 24/04/2019 11:36:41 - database-user = root
-Wed, 24/04/2019 11:36:41 - database-password = ***
-Wed, 24/04/2019 11:36:41 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 11:36:41 - 
-Wed, 24/04/2019 11:36:41 - Genie Search API
-Wed, 24/04/2019 11:36:41 - 
-Wed, 24/04/2019 11:36:41 - 
-Wed, 24/04/2019 11:36:41 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\sf_110\solr-repo\data\index
-Wed, 24/04/2019 11:36:41 - Solr Index Path configurado: D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Wed, 24/04/2019 11:36:41 - 
-Wed, 24/04/2019 11:47:56 - Genie Search API
-Wed, 24/04/2019 11:47:56 - 
-Wed, 24/04/2019 11:47:56 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 11:47:56 - 
-Wed, 24/04/2019 11:47:56 - input-repo = D:\Sourcerer_portable\repositories\sf_110
-Wed, 24/04/2019 11:47:56 - database-url = jdbc:mysql://localhost:3306/sf_110
-Wed, 24/04/2019 11:47:56 - database-user = root
-Wed, 24/04/2019 11:47:56 - database-password = ***
-Wed, 24/04/2019 11:47:56 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 11:47:56 - 
-Wed, 24/04/2019 11:47:56 - Genie Search API
-Wed, 24/04/2019 11:47:56 - 
-Wed, 24/04/2019 11:47:56 - 
-Wed, 24/04/2019 11:47:56 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\sf_110\solr-repo\data\index
-Wed, 24/04/2019 11:47:56 - Solr Index Path configurado: D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Wed, 24/04/2019 11:47:56 - 
-Wed, 24/04/2019 11:49:30 - Genie Search API
-Wed, 24/04/2019 11:49:30 - 
-Wed, 24/04/2019 11:49:30 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 11:49:30 - 
-Wed, 24/04/2019 11:49:30 - input-repo = D:\Sourcerer_portable\repositories\repo_test
-Wed, 24/04/2019 11:49:30 - database-url = jdbc:mysql://localhost:3306/repo_test
-Wed, 24/04/2019 11:49:30 - database-user = root
-Wed, 24/04/2019 11:49:30 - database-password = ***
-Wed, 24/04/2019 11:49:30 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 11:49:30 - 
-Wed, 24/04/2019 11:49:30 - Genie Search API
-Wed, 24/04/2019 11:49:30 - 
-Wed, 24/04/2019 11:49:30 - 
-Wed, 24/04/2019 11:49:30 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\repo_test\solr-repo\data\index
-Wed, 24/04/2019 11:49:30 - Solr Index Path configurado: D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Wed, 24/04/2019 11:49:30 - 
-Wed, 24/04/2019 11:50:32 - Genie Search API
-Wed, 24/04/2019 11:50:32 - 
-Wed, 24/04/2019 11:50:32 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 11:50:32 - 
-Wed, 24/04/2019 11:50:32 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Wed, 24/04/2019 11:50:32 - database-url = jdbc:mysql://localhost:3306/test_repo
-Wed, 24/04/2019 11:50:32 - database-user = root
-Wed, 24/04/2019 11:50:32 - database-password = ***
-Wed, 24/04/2019 11:50:32 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 11:50:32 - 
-Wed, 24/04/2019 11:50:32 - Genie Search API
-Wed, 24/04/2019 11:50:32 - 
-Wed, 24/04/2019 12:07:41 - Genie Search API
-Wed, 24/04/2019 12:07:41 - 
-Wed, 24/04/2019 12:07:41 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 12:07:41 - 
-Wed, 24/04/2019 12:07:41 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Wed, 24/04/2019 12:07:41 - database-url = jdbc:mysql://localhost:3306/test_repo
-Wed, 24/04/2019 12:07:41 - database-user = root
-Wed, 24/04/2019 12:07:41 - database-password = ***
-Wed, 24/04/2019 12:07:41 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 12:07:41 - 
-Wed, 24/04/2019 12:07:41 - Genie Search API
-Wed, 24/04/2019 12:07:41 - 
-Wed, 24/04/2019 12:14:23 - Genie Search API
-Wed, 24/04/2019 12:14:23 - 
-Wed, 24/04/2019 12:14:23 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 12:14:23 - 
-Wed, 24/04/2019 12:14:23 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Wed, 24/04/2019 12:14:23 - database-url = jdbc:mysql://localhost:3306/test_repo
-Wed, 24/04/2019 12:14:23 - database-user = root
-Wed, 24/04/2019 12:14:23 - database-password = ***
-Wed, 24/04/2019 12:14:23 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 12:14:23 - 
-Wed, 24/04/2019 12:14:23 - Genie Search API
-Wed, 24/04/2019 12:14:23 - 
-Wed, 24/04/2019 12:16:43 - Genie Search API
-Wed, 24/04/2019 12:16:43 - 
-Wed, 24/04/2019 12:16:43 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 12:16:43 - 
-Wed, 24/04/2019 12:16:43 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Wed, 24/04/2019 12:16:43 - database-url = jdbc:mysql://localhost:3306/test_repo
-Wed, 24/04/2019 12:16:43 - database-user = root
-Wed, 24/04/2019 12:16:43 - database-password = ***
-Wed, 24/04/2019 12:16:43 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 12:16:43 - 
-Wed, 24/04/2019 12:16:43 - Genie Search API
-Wed, 24/04/2019 12:16:43 - 
-Wed, 24/04/2019 15:50:08 - Genie Search API
-Wed, 24/04/2019 15:50:08 - 
-Wed, 24/04/2019 15:50:08 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 15:50:08 - 
-Wed, 24/04/2019 15:50:08 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Wed, 24/04/2019 15:50:08 - database-url = jdbc:mysql://localhost:3306/test_repo
-Wed, 24/04/2019 15:50:08 - database-user = root
-Wed, 24/04/2019 15:50:08 - database-password = ***
-Wed, 24/04/2019 15:50:08 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 15:50:08 - 
-Wed, 24/04/2019 15:50:08 - Genie Search API
-Wed, 24/04/2019 15:50:08 - 
-Wed, 24/04/2019 16:51:32 - Genie Search API
-Wed, 24/04/2019 16:51:32 - 
-Wed, 24/04/2019 16:51:32 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 16:51:32 - 
-Wed, 24/04/2019 16:51:32 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Wed, 24/04/2019 16:51:32 - database-url = jdbc:mysql://localhost:3306/test_repo
-Wed, 24/04/2019 16:51:32 - database-user = root
-Wed, 24/04/2019 16:51:32 - database-password = ***
-Wed, 24/04/2019 16:51:32 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 16:51:32 - 
-Wed, 24/04/2019 16:51:32 - Genie Search API
-Wed, 24/04/2019 16:51:32 - 
-Wed, 24/04/2019 17:02:19 - Genie Search API
-Wed, 24/04/2019 17:02:19 - 
-Wed, 24/04/2019 17:02:19 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 17:02:19 - 
-Wed, 24/04/2019 17:02:19 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Wed, 24/04/2019 17:02:19 - database-url = jdbc:mysql://localhost:3306/test_repo
-Wed, 24/04/2019 17:02:19 - database-user = root
-Wed, 24/04/2019 17:02:19 - database-password = ***
-Wed, 24/04/2019 17:02:19 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 17:02:19 - 
-Wed, 24/04/2019 17:02:19 - Genie Search API
-Wed, 24/04/2019 17:02:19 - 
-Wed, 24/04/2019 17:10:47 - Genie Search API
-Wed, 24/04/2019 17:10:47 - 
-Wed, 24/04/2019 17:10:47 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 17:10:47 - 
-Wed, 24/04/2019 17:10:47 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Wed, 24/04/2019 17:10:47 - database-url = jdbc:mysql://localhost:3306/test_repo
-Wed, 24/04/2019 17:10:47 - database-user = root
-Wed, 24/04/2019 17:10:47 - database-password = ***
-Wed, 24/04/2019 17:10:47 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 17:10:47 - 
-Wed, 24/04/2019 17:10:47 - Genie Search API
-Wed, 24/04/2019 17:10:47 - 
-Wed, 24/04/2019 17:55:14 - Genie Search API
-Wed, 24/04/2019 17:55:14 - 
-Wed, 24/04/2019 17:55:14 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Wed, 24/04/2019 17:55:14 - 
-Wed, 24/04/2019 17:55:14 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Wed, 24/04/2019 17:55:14 - database-url = jdbc:mysql://localhost:3306/test_repo
-Wed, 24/04/2019 17:55:14 - database-user = root
-Wed, 24/04/2019 17:55:14 - database-password = ***
-Wed, 24/04/2019 17:55:14 - webserver-url = http://localhost:8080
-Wed, 24/04/2019 17:55:14 - 
-Wed, 24/04/2019 17:55:14 - Genie Search API
-Wed, 24/04/2019 17:55:14 - 
+Thu, 25/04/2019 14:59:53 - Genie Search API
+Thu, 25/04/2019 14:59:53 - 
+Thu, 25/04/2019 14:59:53 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 25/04/2019 14:59:53 - 
+Thu, 25/04/2019 14:59:53 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 25/04/2019 14:59:53 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 25/04/2019 14:59:53 - database-user = root
+Thu, 25/04/2019 14:59:53 - database-password = ***
+Thu, 25/04/2019 14:59:53 - webserver-url = http://localhost:8080
+Thu, 25/04/2019 14:59:53 - 
+Thu, 25/04/2019 14:59:53 - Genie Search API
+Thu, 25/04/2019 14:59:53 - 
+Thu, 25/04/2019 18:36:38 - 
+Thu, 25/04/2019 18:36:38 - Genie Search API
+Thu, 25/04/2019 18:36:38 - 
+Thu, 25/04/2019 18:36:38 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 25/04/2019 18:36:38 - 
+Thu, 25/04/2019 18:36:38 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 25/04/2019 18:36:38 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 25/04/2019 18:36:38 - database-user = root
+Thu, 25/04/2019 18:36:38 - database-password = ***
+Thu, 25/04/2019 18:36:38 - webserver-url = http://localhost:8084
+Thu, 25/04/2019 18:36:38 - 
+Thu, 25/04/2019 18:36:38 - Genie Search API
+Thu, 25/04/2019 18:36:38 - 
+Thu, 25/04/2019 18:36:39 - 
+Thu, 25/04/2019 18:36:39 - Solr OFFLINE: http://localhost:8084/solr
+Thu, 25/04/2019 18:36:39 - 
+Thu, 25/04/2019 18:36:40 - 
+Thu, 25/04/2019 18:36:40 - Solr OFFLINE: http://localhost:8084/solr
+Thu, 25/04/2019 18:36:40 - 
+Thu, 25/04/2019 18:38:14 - 
+Thu, 25/04/2019 18:38:14 - Genie Search API
+Thu, 25/04/2019 18:38:14 - 
+Thu, 25/04/2019 18:38:14 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 25/04/2019 18:38:14 - 
+Thu, 25/04/2019 18:38:14 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 25/04/2019 18:38:14 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 25/04/2019 18:38:14 - database-user = root
+Thu, 25/04/2019 18:38:14 - database-password = ***
+Thu, 25/04/2019 18:38:14 - webserver-url = http://localhost:8084
+Thu, 25/04/2019 18:38:14 - 
+Thu, 25/04/2019 18:38:14 - Genie Search API
+Thu, 25/04/2019 18:38:14 - 
+Thu, 25/04/2019 18:38:15 - 
+Thu, 25/04/2019 18:38:15 - Solr OFFLINE: http://localhost:8084/solr
+Thu, 25/04/2019 18:38:15 - 
+Thu, 25/04/2019 18:38:16 - 
+Thu, 25/04/2019 18:38:16 - Solr OFFLINE: http://localhost:8084/solr
+Thu, 25/04/2019 18:38:16 - 
+Thu, 25/04/2019 18:39:36 - 
+Thu, 25/04/2019 18:39:36 - Genie Search API
+Thu, 25/04/2019 18:39:36 - 
+Thu, 25/04/2019 18:39:36 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 25/04/2019 18:39:36 - 
+Thu, 25/04/2019 18:39:36 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 25/04/2019 18:39:36 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 25/04/2019 18:39:36 - database-user = root
+Thu, 25/04/2019 18:39:36 - database-password = ***
+Thu, 25/04/2019 18:39:36 - webserver-url = http://localhost:8084
+Thu, 25/04/2019 18:39:36 - 
+Thu, 25/04/2019 18:39:36 - Genie Search API
+Thu, 25/04/2019 18:39:36 - 
+Thu, 25/04/2019 18:39:37 - 
+Thu, 25/04/2019 18:39:37 - Solr OFFLINE: http://localhost:8084/solr
+Thu, 25/04/2019 18:39:37 - 
+Thu, 25/04/2019 18:39:38 - 
+Thu, 25/04/2019 18:39:38 - Solr OFFLINE: http://localhost:8084/solr
+Thu, 25/04/2019 18:39:38 - 
+Thu, 25/04/2019 18:40:57 - 
+Thu, 25/04/2019 18:40:57 - Genie Search API
+Thu, 25/04/2019 18:40:57 - 
+Thu, 25/04/2019 18:40:57 - /C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 25/04/2019 18:40:57 - 
+Thu, 25/04/2019 18:40:57 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 25/04/2019 18:40:57 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 25/04/2019 18:40:57 - database-user = root
+Thu, 25/04/2019 18:40:57 - database-password = ***
+Thu, 25/04/2019 18:40:57 - webserver-url = http://localhost:8080
+Thu, 25/04/2019 18:40:57 - 
+Thu, 25/04/2019 18:40:57 - Genie Search API
+Thu, 25/04/2019 18:40:57 - 

@@ -1,0 +1,52 @@
+﻿a) No IDE
+
+1. Atualizar RELEASE.txt, criando um novo texto de versão com as alterações realizadas
+
+2. Atualizar pom.xml na tag <version> com o número da versão nova 
+
+3. Run -> Run Configurations... -> Executar "Run Maven. ICodeGenie - install.launch"
+
+4. Demora um pouco... 
+
+5. Se terminar com sucesso, pode pular para o passo "c) No Navegador"
+
+
+b) No Servidor (Digital Ocean)
+
+1. Abrir o PuTTY Portable (D:\Dropbox\Programas 2\@portable\PuTTYPortable\PuTTYPortable.exe)
+
+2. Abrir a sessão 'droplet - producao'
+
+3. Logar com user
+  adrianocarv / pass: a mesma
+
+4. Trabalha como super user
+  su
+  <colocar a senha navamente>
+
+5. Subir a última versão do ICodeGenie
+./i-code-genie-startup.sh i-code-genie-<versão>.jar &
+
+6. Verificar se está no ar com a versão atualizada
+  http://192.241.180.208:8082
+
+7. Fechar o PuTTY Portable
+  crtl+c
+  exit
+  exit
+
+
+c) No Navegador
+
+1. Verificar se a Aplicação está no ar com a versão atualizada (fazer login)
+  http://192.241.180.208:8082
+
+d) No Git Shell
+
+cd\
+cd GitHub\i-code-genie
+
+git add .
+git commit -m "Version 2.5.1-RC-01"
+git push origin master
+exit
