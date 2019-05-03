@@ -24,13 +24,16 @@ b) No Servidor (Digital Ocean)
   su
   <colocar a senha navamente>
 
-5. Subir a última versão do ICodeGenie
+5. Forçar a parada do ICodeGenie
+pkill -f i-code-genie-
+
+6. Subir a última versão do ICodeGenie
 ./i-code-genie-startup.sh i-code-genie-<versão>.jar &
 
-6. Verificar se está no ar com a versão atualizada
+7. Verificar se está no ar com a versão atualizada
   http://192.241.180.208:8082
 
-7. Fechar o PuTTY Portable
+8. Fechar o PuTTY Portable
   crtl+c
   exit
   exit

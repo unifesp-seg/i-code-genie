@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>br.unifesp.ict.seg</groupId>
     <artifactId>i-code-genie</artifactId>
     <name>i-code-genie</name>
-    <version>1.0.0</version>
+    <version>1.2.0-RC-01</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -14,6 +15,17 @@
 
         <!-- Dependencies -->
         <vaadin.version>13.0.3</vaadin.version>
+
+		<java.version>1.8</java.version>
+		<timestamp>${maven.build.timestamp}</timestamp>
+		<maven.build.timestamp.format>dd/MM/yyyy HH:mm</maven.build.timestamp.format>
+		<app-file-name>${project.artifactId}-${project.version}.jar</app-file-name>
+		<ftp-server>ip</ftp-server>
+		<ftp-port>port</ftp-port>
+		<ftp-userid>user</ftp-userid>
+		<ftp-password>pass</ftp-password>
+		<ftp-remotedir>dir</ftp-remotedir>
+
     </properties>
 
     <parent>
@@ -67,11 +79,12 @@
             <optional>true</optional>
         </dependency>
 
+		<!-- ************************************************************************************************ -->
 		<!-- genie-search-api -->
 		<dependency>
 			<groupId>br.unifesp.ict.seg</groupId>
 			<artifactId>genie-search-api</artifactId>
-			<version>1.6.1</version>
+			<version>1.6.10</version>
 		</dependency>
 
 		<!-- commons-lang -->
@@ -129,6 +142,9 @@
 			<version>1.0</version>
 		</dependency>
 
+		<!-- genie-search-api -->
+		<!-- ************************************************************************************************ -->
+
     </dependencies>
 
     <build>
@@ -137,6 +153,51 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+			<plugin>
+			    <inherited>false</inherited>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-antrun-plugin</artifactId>
+			    <executions>
+			        <execution>
+			            <id>deploy-on-server</id>
+			            <phase>install</phase>
+			            <goals>
+			                <goal>run</goal>
+			            </goals>
+			            <configuration>
+			                <target name="deploy-on-server" description="how to get antrun plugin to work with SCP and SSH">
+
+			                    <!-- file to be transferred -->
+			                    <!-- 
+  								-->
+			                    <echo message="Tansferring App file... ${app-file-name}" />
+								<scp todir="${ftp-userid}@${ftp-server}:${ftp-remotedir}" port="${ftp-port}" password="${ftp-password}" trust="true">
+									<fileset file="target/${app-file-name}" />
+								</scp>
+  								
+			                    <!-- remote host and the command to be executed there -->
+			                    <sshexec trust="true" failonerror="false" host="${ftp-server}" port="${ftp-port}" username="${ftp-userid}" password="${ftp-password}" command="./i-code-genie-startup.sh ${app-file-name}" timeout="30000" />
+			                    <taskdef name="scp" classname="org.apache.tools.ant.taskdefs.optional.ssh.Scp">
+			                        <classpath refid="maven.plugin.classpath" />
+			                    </taskdef>
+
+			                </target>
+			            </configuration>
+			        </execution>
+			    </executions>
+			    <dependencies>
+			        <dependency>
+			            <groupId>ant</groupId>
+			            <artifactId>ant-commons-net</artifactId>
+			            <version>1.6.5</version>
+			        </dependency>
+			        <dependency>
+			            <groupId>org.apache.ant</groupId>
+			            <artifactId>ant-jsch</artifactId>
+			            <version>1.9.1</version>
+			        </dependency>
+			    </dependencies>
+			</plugin>              
         </plugins>
     </build>
 

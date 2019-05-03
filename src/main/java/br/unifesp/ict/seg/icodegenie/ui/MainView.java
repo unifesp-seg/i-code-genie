@@ -4,10 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Value;
 
 import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.html.Label;
+import com.vaadin.flow.component.icon.Icon;
+import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
@@ -16,29 +20,49 @@ import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.PWA;
 
+import br.unifesp.ict.seg.geniesearchapi.infrastructure.util.GenieSearchAPIConfig;
 import br.unifesp.ict.seg.geniesearchapi.services.searchaqe.domain.Expander;
 import br.unifesp.ict.seg.geniesearchapi.services.searchaqe.infrastructure.SourcererQueryBuilder;
 import br.unifesp.ict.seg.icodegenie.model.Method;
 import edu.uci.ics.sourcerer.services.search.adapter.SearchResult;
 import edu.uci.ics.sourcerer.services.search.adapter.SingleResult;
 
+//TODO Fazer/pesquisar Logo
+//TODO Favicon
+//TODO Imagem para aparecer no WhatsApp
+
 @Route
+//TODO remover este comentário?
+//@Route(value = "", layout = MainLayout.class)
 @PWA(name = "ICodeGenie: Search and analyze methods in a sourcerer repository", shortName = "ICodeGenie")
 public class MainView extends VerticalLayout {
 
 	private static final long serialVersionUID = 1L;
 
+	@Value("${build.version}")
+	private String buildVersion;
+
+	@Value("${build.timestamp}")
+	private String buildTimestamp;
+
 	private MethodDetailView methodDetailView = new MethodDetailView(this);
 	private StatusView statusView = new StatusView(this);
 
 	private TextField searchField = new TextField();
-	private Button searchHelpButton = new Button("help");
-	private Button repoStatusButton = new Button("status");
+	private Button searchHelpButton = new Button(new Icon(VaadinIcon.QUESTION_CIRCLE_O));
+	private Button repoStatusButton = new Button(new Icon(VaadinIcon.PLUG));
+
+	// TODO trocar pelo componente Details
 	private Label searchExpressionLabel = new Label();
-	private Button searchButton = new Button("buscar");
-	private Button newSearchButton = new Button("nova busca");
-	private Button sourcererQueryButton = new Button("query");
+
+	private Button searchButton = new Button("Search", new Icon(VaadinIcon.SEARCH));
+	private Button newSearchButton = new Button("New search", new Icon(VaadinIcon.SEARCH_PLUS));
+	private Button sourcererQueryButton = new Button("Query", new Icon(VaadinIcon.FILE_SEARCH));
+
+	// TODO trocar pelo componente Details
 	private Label sourcererQueryLabel = new Label();
+
+	// TODO colocar mais colunas
 	private Grid<Method> sourcererResultGrid = new Grid<>(Method.class);
 
 	private String exprMethodName = "";
@@ -51,77 +75,91 @@ public class MainView extends VerticalLayout {
 		buildLayout();
 		configureComponents();
 		hookLogicToComponents();
+
+		// TODO remover depois de implementar a tela
+		try {
+			SearchResult result = null;
+			result = this.getSourcererQueryBuilder().search(869186L);
+			System.out.println(result.getNumFound());
+			SingleResult singleResult = result.getResults(0, 1).get(0);
+			methodDetailView.enter(new Method(singleResult));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	private void buildLayout() {
 		setVisible(true);
 
-		HorizontalLayout inputToolbar = new HorizontalLayout(searchField, searchHelpButton, repoStatusButton);
-		HorizontalLayout searchToolbar = new HorizontalLayout(searchExpressionLabel, searchButton, newSearchButton, sourcererQueryButton);
+		// TODO colocar Logo do App
+
+		// TODO campo de busca: ocupar a largura toda
+		HorizontalLayout inputToolbar = new HorizontalLayout(searchField);
+
+		HorizontalLayout actionsToolbar = new HorizontalLayout(searchButton, newSearchButton, sourcererQueryButton, searchHelpButton, repoStatusButton);
 
 		HorizontalLayout mainContent = new HorizontalLayout(sourcererResultGrid, methodDetailView, statusView);
 		mainContent.setSizeFull();
 
-		add(inputToolbar, searchToolbar, sourcererQueryLabel, mainContent);
+		add(inputToolbar, actionsToolbar, searchExpressionLabel, sourcererQueryLabel, mainContent);
 
 		setSizeFull();
 	}
 
-	//TODO ícone nos botões
 	private void configureComponents() {
 
-		searchField.setPlaceholder("Filter by name...");
+		searchField.setPlaceholder("Methods search...");
 		searchField.setClearButtonVisible(true);
 		searchField.setValueChangeMode(ValueChangeMode.EAGER);
 		searchField.focus();
 
+		newSearchButton.setVisible(false);
+		sourcererQueryLabel.setVisible(false);
+
+		repoStatusButton.addThemeVariants(ButtonVariant.LUMO_TERTIARY);
+		this.updateStatusLayout();
+
 		sourcererResultGrid.setSizeFull();
 		sourcererResultGrid.setColumns("entityId", "fqn");
 
-		searchButton.setEnabled(false);
-		sourcererQueryButton.setEnabled(false);
-		sourcererQueryLabel.setEnabled(false);
-		this.updateComponentsVisibility(true);
+		this.updateSearchExpression();
+	}
+
+	void updateStatusLayout() {
+		repoStatusButton.setText(GenieSearchAPIConfig.getRepoName());
+
+		if (GenieSearchAPIConfig.checkAll())
+			repoStatusButton.removeThemeVariants(ButtonVariant.LUMO_ERROR);
+		else
+			repoStatusButton.addThemeVariants(ButtonVariant.LUMO_ERROR);
 	}
 
 	private void hookLogicToComponents() {
 
 		searchField.addValueChangeListener(e -> updateSearchExpression());
 		searchHelpButton.addClickListener(e -> showFilterExamples());
-		repoStatusButton.addClickListener(e -> statusView.enter());
+		repoStatusButton.addClickListener(e -> showStatus());
 		sourcererQueryButton.addClickListener(e -> showSourcererQuery());
 		searchButton.addClickListener(e -> search());
 		newSearchButton.addClickListener(e -> newSearch());
-
-		//TODO duplo clique no mesmo registro dá NPE
 		sourcererResultGrid.asSingleSelect().addValueChangeListener(e -> methodDetailView.enter(sourcererResultGrid.asSingleSelect().getValue()));
 	}
 
-	//TODO simplificar e clarear a parte de exibição e habilitação dos componentes
 	private void updateComponentsVisibility(boolean inputPhase) {
 		searchField.setEnabled(inputPhase);
-		searchHelpButton.setEnabled(inputPhase);
-		searchExpressionLabel.setEnabled(!inputPhase);
-		newSearchButton.setEnabled(!inputPhase);
-		sourcererResultGrid.setEnabled(!inputPhase);
+		searchButton.setVisible(inputPhase);
+		newSearchButton.setVisible(!inputPhase);
 	}
 
 	private void updateSearchExpression() {
 
 		boolean isValidExpression = this.isValidExpression(searchField.getValue());
 
-		searchExpressionLabel.setText(this.getExpressionLabel());
-		if (isValidExpression) {
-			searchExpressionLabel.setEnabled(true);
-			searchButton.setEnabled(true);
-			sourcererQueryButton.setEnabled(true);
-			sourcererQueryLabel.setText(this.getSourcererQueryLabel());
-		} else {
-			searchExpressionLabel.setEnabled(false);
-			searchButton.setEnabled(false);
-			sourcererQueryButton.setEnabled(false);
-			sourcererQueryLabel.setText("");
-		}
+		searchExpressionLabel.setVisible(isValidExpression);
+		searchExpressionLabel.setText(isValidExpression ? this.getExpressionLabel() : "");
+		searchButton.setVisible(isValidExpression);
+		sourcererQueryButton.setVisible(isValidExpression);
+		sourcererQueryLabel.setText(isValidExpression ? this.getSourcererQueryLabel() : "");
 	}
 
 	private boolean isValidExpression(String searchTerm) {
@@ -163,15 +201,15 @@ public class MainView extends VerticalLayout {
 			} else {
 				for (String exp : expandersArray) {
 					if ("w".equalsIgnoreCase(exp.trim())) {
-						if(exprExpanders.contains(Expander.WORDNET_EXPANDER))
+						if (exprExpanders.contains(Expander.WORDNET_EXPANDER))
 							return false;
 						exprExpanders += Expander.WORDNET_EXPANDER + ", ";
 					} else if ("t".equalsIgnoreCase(exp.trim())) {
-						if(exprExpanders.contains(Expander.TYPE_EXPANDER))
+						if (exprExpanders.contains(Expander.TYPE_EXPANDER))
 							return false;
 						exprExpanders += Expander.TYPE_EXPANDER + ", ";
 					} else if ("c".equalsIgnoreCase(exp.trim())) {
-						if(exprExpanders.contains(Expander.CODE_VOCABULARY_EXPANDER))
+						if (exprExpanders.contains(Expander.CODE_VOCABULARY_EXPANDER))
 							return false;
 						exprExpanders += Expander.CODE_VOCABULARY_EXPANDER + ", ";
 					} else
@@ -235,7 +273,7 @@ public class MainView extends VerticalLayout {
 	private String getExpressionLabel() {
 		String label = "";
 		if (exprEntityId != null) {
-			label = "Entity_id = " + exprEntityId;
+			label = "Entity_id: " + exprEntityId;
 		} else {
 			label = " Return: " + exprReturnType;
 			label += " Method name: " + exprMethodName;
@@ -249,7 +287,7 @@ public class MainView extends VerticalLayout {
 	private String getSourcererQueryLabel() {
 		String query = "";
 		try {
-			if(exprEntityId != null)
+			if (exprEntityId != null)
 				query = this.getSourcererQueryBuilder().getSourcererExpandedQuery(exprEntityId);
 			else
 				query = this.getSourcererQueryBuilder().getSourcererExpandedQuery(exprMethodName, exprReturnType, exprParams);
@@ -263,11 +301,11 @@ public class MainView extends VerticalLayout {
 	private void search() {
 		SearchResult result = null;
 		try {
-			if(exprEntityId != null)
+			if (exprEntityId != null)
 				result = this.getSourcererQueryBuilder().search(exprEntityId);
 			else
 				result = this.getSourcererQueryBuilder().search(exprMethodName, exprReturnType, exprParams);
-				
+
 			List<Method> methods = this.getMethods(result);
 			sourcererResultGrid.setItems(methods);
 		} catch (Exception e) {
@@ -291,11 +329,18 @@ public class MainView extends VerticalLayout {
 
 	private void newSearch() {
 		this.updateComponentsVisibility(true);
+		sourcererResultGrid.setItems(new ArrayList<Method>());
 		searchField.focus();
 	}
 
 	private void showSourcererQuery() {
+		// TODO trocar pelo componente Details?
 		sourcererQueryLabel.setVisible(!sourcererQueryLabel.isVisible());
+	}
+
+	private void showStatus() {
+		statusView.enter();
+		this.updateStatusLayout();
 	}
 
 	private SourcererQueryBuilder getSourcererQueryBuilder() {
@@ -318,6 +363,15 @@ public class MainView extends VerticalLayout {
 	}
 
 	private void showFilterExamples() {
+		// TODO implementar showFilterExamples
 		Notification.show("Exemplos...");
+	}
+
+	public String getBuildVersion() {
+		return buildVersion;
+	}
+
+	public String getBuildTimestamp() {
+		return buildTimestamp;
 	}
 }

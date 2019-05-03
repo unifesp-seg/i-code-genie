@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="deploy-on-server"  >
+<target name="deploy-on-server" description="how to get antrun plugin to work with SCP and SSH">
+  <echo message="Tansferring App file... i-code-genie-1.1.1-RC-01.jar"/>
+  <scp trust="true" password="@a8859662" todir="adrianocarv@192.241.180.208:/home/adrianocarv" port="25800">
+    <fileset file="target/i-code-genie-1.1.1-RC-01.jar"/>
+  </scp>
+  <sshexec trust="true" password="@a8859662" port="25800" host="192.241.180.208" failonerror="false" command="./i-code-genie-startup.sh i-code-genie-1.1.1-RC-01.jar" timeout="30000" username="adrianocarv"/>
+  <taskdef classname="org.apache.tools.ant.taskdefs.optional.ssh.Scp" name="scp">
+    <classpath refid="maven.plugin.classpath"/>
+  </taskdef>
+</target>
+</project>

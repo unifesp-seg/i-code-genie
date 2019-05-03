@@ -1,7 +1,5 @@
 package br.unifesp.ict.seg.icodegenie;
 
-import java.io.IOException;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -14,7 +12,7 @@ import br.unifesp.ict.seg.geniesearchapi.infrastructure.util.GenieSearchAPIConfi
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
         GenieSearchAPIConfig.loadProperties(args);
     }

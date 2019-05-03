@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Implementation-Title: i-code-genie
-Implementation-Version: 1.0.0
+Implementation-Version: 1.2.0-RC-01
 Built-By: adrianocarv
 Implementation-Vendor-Id: br.unifesp.ict.seg
 Build-Jdk: 1.8.0_201

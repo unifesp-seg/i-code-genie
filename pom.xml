@@ -4,7 +4,7 @@
     <groupId>br.unifesp.ict.seg</groupId>
     <artifactId>i-code-genie</artifactId>
     <name>i-code-genie</name>
-    <version>1.0.2-RC-01</version>
+    <version>1.2.0-RC-01</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -79,11 +79,12 @@
             <optional>true</optional>
         </dependency>
 
+		<!-- ************************************************************************************************ -->
 		<!-- genie-search-api -->
 		<dependency>
 			<groupId>br.unifesp.ict.seg</groupId>
 			<artifactId>genie-search-api</artifactId>
-			<version>1.6.3</version>
+			<version>1.6.10</version>
 		</dependency>
 
 		<!-- commons-lang -->
@@ -140,6 +141,9 @@
 			<artifactId>jaws-bin</artifactId>
 			<version>1.0</version>
 		</dependency>
+
+		<!-- genie-search-api -->
+		<!-- ************************************************************************************************ -->
 
     </dependencies>
 

@@ -1,0 +1,134 @@
+Thu, 02/05/2019 11:11:26 - 
+Thu, 02/05/2019 11:11:26 - Genie Search API
+Thu, 02/05/2019 11:11:26 - 
+Thu, 02/05/2019 11:11:26 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 11:11:26 - 
+Thu, 02/05/2019 11:11:26 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 11:11:26 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 11:11:26 - database-user = root
+Thu, 02/05/2019 11:11:26 - database-password = ***
+Thu, 02/05/2019 11:11:26 - webserver-url = http://192.241.180.208:8080
+Thu, 02/05/2019 11:11:26 - 
+Thu, 02/05/2019 11:11:26 - Genie Search API
+Thu, 02/05/2019 11:11:26 - 
+Thu, 02/05/2019 11:11:27 - 
+Thu, 02/05/2019 11:11:27 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
+Thu, 02/05/2019 11:11:27 - Solr Index Path configurado: null
+Thu, 02/05/2019 11:11:27 - 
+Thu, 02/05/2019 12:36:58 - 
+Thu, 02/05/2019 12:36:58 - Genie Search API
+Thu, 02/05/2019 12:36:58 - 
+Thu, 02/05/2019 12:36:58 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 12:36:58 - 
+Thu, 02/05/2019 12:36:58 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 12:36:58 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 12:36:58 - database-user = root
+Thu, 02/05/2019 12:36:58 - database-password = ***
+Thu, 02/05/2019 12:36:58 - webserver-url = http://localhost:8080
+Thu, 02/05/2019 12:36:58 - 
+Thu, 02/05/2019 12:36:58 - Genie Search API
+Thu, 02/05/2019 12:36:58 - 
+Thu, 02/05/2019 12:37:43 - 
+Thu, 02/05/2019 12:37:43 - Genie Search API
+Thu, 02/05/2019 12:37:43 - 
+Thu, 02/05/2019 12:37:43 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 12:37:43 - 
+Thu, 02/05/2019 12:37:43 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 12:37:43 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 12:37:43 - database-user = root
+Thu, 02/05/2019 12:37:43 - database-password = ***
+Thu, 02/05/2019 12:37:43 - webserver-url = http://localhost:8080
+Thu, 02/05/2019 12:37:43 - 
+Thu, 02/05/2019 12:37:43 - Genie Search API
+Thu, 02/05/2019 12:37:43 - 
+Thu, 02/05/2019 12:39:52 - 
+Thu, 02/05/2019 12:39:52 - Genie Search API
+Thu, 02/05/2019 12:39:52 - 
+Thu, 02/05/2019 12:39:52 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 12:39:52 - 
+Thu, 02/05/2019 12:39:52 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 12:39:52 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 12:39:52 - database-user = root
+Thu, 02/05/2019 12:39:52 - database-password = ***
+Thu, 02/05/2019 12:39:52 - webserver-url = http://localhost:8080
+Thu, 02/05/2019 12:39:52 - 
+Thu, 02/05/2019 12:39:52 - Genie Search API
+Thu, 02/05/2019 12:39:52 - 
+Thu, 02/05/2019 12:40:10 - 
+Thu, 02/05/2019 12:40:10 - Genie Search API
+Thu, 02/05/2019 12:40:10 - 
+Thu, 02/05/2019 12:40:10 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 12:40:10 - 
+Thu, 02/05/2019 12:40:10 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 12:40:10 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 12:40:10 - database-user = root
+Thu, 02/05/2019 12:40:10 - database-password = ***
+Thu, 02/05/2019 12:40:10 - webserver-url = http://localhost:8080
+Thu, 02/05/2019 12:40:10 - 
+Thu, 02/05/2019 12:40:10 - Genie Search API
+Thu, 02/05/2019 12:40:10 - 
+Thu, 02/05/2019 12:40:40 - 
+Thu, 02/05/2019 12:40:40 - Genie Search API
+Thu, 02/05/2019 12:40:40 - 
+Thu, 02/05/2019 12:40:40 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 12:40:40 - 
+Thu, 02/05/2019 12:40:40 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 12:40:40 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 12:40:40 - database-user = root
+Thu, 02/05/2019 12:40:40 - database-password = ***
+Thu, 02/05/2019 12:40:40 - webserver-url = http://localhost:8080
+Thu, 02/05/2019 12:40:40 - 
+Thu, 02/05/2019 12:40:40 - Genie Search API
+Thu, 02/05/2019 12:40:40 - 
+Thu, 02/05/2019 12:41:21 - 
+Thu, 02/05/2019 12:41:21 - Genie Search API
+Thu, 02/05/2019 12:41:21 - 
+Thu, 02/05/2019 12:41:21 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 12:41:21 - 
+Thu, 02/05/2019 12:41:21 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 12:41:21 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 12:41:21 - database-user = root
+Thu, 02/05/2019 12:41:21 - database-password = ***
+Thu, 02/05/2019 12:41:21 - webserver-url = http://localhost:8080
+Thu, 02/05/2019 12:41:21 - 
+Thu, 02/05/2019 12:41:21 - Genie Search API
+Thu, 02/05/2019 12:41:21 - 
+Thu, 02/05/2019 12:42:21 - 
+Thu, 02/05/2019 12:42:21 - Genie Search API
+Thu, 02/05/2019 12:42:21 - 
+Thu, 02/05/2019 12:42:21 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 12:42:21 - 
+Thu, 02/05/2019 12:42:21 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 12:42:21 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 12:42:21 - database-user = root
+Thu, 02/05/2019 12:42:21 - database-password = ***
+Thu, 02/05/2019 12:42:21 - webserver-url = http://localhost:8080
+Thu, 02/05/2019 12:42:21 - 
+Thu, 02/05/2019 12:42:21 - Genie Search API
+Thu, 02/05/2019 12:42:21 - 
+Thu, 02/05/2019 12:43:12 - 
+Thu, 02/05/2019 12:43:12 - Genie Search API
+Thu, 02/05/2019 12:43:12 - 
+Thu, 02/05/2019 12:43:12 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 12:43:12 - 
+Thu, 02/05/2019 12:43:12 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 12:43:12 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 12:43:12 - database-user = root
+Thu, 02/05/2019 12:43:12 - database-password = ***
+Thu, 02/05/2019 12:43:12 - webserver-url = http://localhost:8080
+Thu, 02/05/2019 12:43:12 - 
+Thu, 02/05/2019 12:43:12 - Genie Search API
+Thu, 02/05/2019 12:43:12 - 
+Thu, 02/05/2019 12:43:44 - 
+Thu, 02/05/2019 12:43:44 - Genie Search API
+Thu, 02/05/2019 12:43:44 - 
+Thu, 02/05/2019 12:43:44 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Thu, 02/05/2019 12:43:44 - 
+Thu, 02/05/2019 12:43:44 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Thu, 02/05/2019 12:43:44 - database-url = jdbc:mysql://localhost:3306/test_repo
+Thu, 02/05/2019 12:43:44 - database-user = root
+Thu, 02/05/2019 12:43:44 - database-password = ***
+Thu, 02/05/2019 12:43:44 - webserver-url = http://localhost:8080
+Thu, 02/05/2019 12:43:44 - 
+Thu, 02/05/2019 12:43:44 - Genie Search API
+Thu, 02/05/2019 12:43:44 - 
