@@ -1,21 +1,28 @@
 package br.unifesp.ict.seg.icodegenie.ui;
 
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
+
+import com.github.appreciated.prism.element.Language;
+import com.github.appreciated.prism.element.PrismHighlighter;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.details.Details;
 import com.vaadin.flow.component.html.Anchor;
 import com.vaadin.flow.component.html.Paragraph;
 import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.server.StreamResource;
 
 import br.unifesp.ict.seg.geniesearchapi.domain.GenieMethod;
 import br.unifesp.ict.seg.geniesearchapi.infrastructure.GenieMethodRepository;
-import br.unifesp.ict.seg.geniesearchapi.infrastructure.util.GenieSearchAPIConfig;
 import br.unifesp.ict.seg.icodegenie.model.Method;
 
-//TODO 0 MethodDetailView: implementar
+//FIXME 0 MethodDetailView: implementar
 
 public class MethodDetailView extends VerticalLayout {
 
@@ -29,7 +36,7 @@ public class MethodDetailView extends VerticalLayout {
 	private Method currentMethod;
 
 	private Details methodHeader = new Details(new Span("Method"), null);
-	private Details projectHeader = new Details("Project", null);
+	private Details downloadHeader = new Details(new Span("Downloads"), null);
 	private Details sourceHeader = new Details("Source Code", null);
 	private Details execHeader = new Details("Execute", null);
 
@@ -50,23 +57,24 @@ public class MethodDetailView extends VerticalLayout {
 
 	private void buildLayout() {
 
-		add(methodHeader, projectHeader, sourceHeader, execHeader);
+		add(methodHeader, downloadHeader, sourceHeader, execHeader);
 	}
 
 	private void configureComponents() {
 
 		methodHeader.getSummary().getElement().getStyle().set("color", okColor);
-		projectHeader.getSummary().getElement().getStyle().set("color", okColor);
+		downloadHeader.getSummary().getElement().getStyle().set("color", okColor);
 		sourceHeader.getSummary().getElement().getStyle().set("color", okColor);
 		execHeader.getSummary().getElement().getStyle().set("color", okColor);
 
 		methodHeader.setOpened(true);
-		projectHeader.setOpened(true);
+		downloadHeader.setOpened(false);
 		sourceHeader.setOpened(true);
 		execHeader.setOpened(true);
-	}
+}
 
 	private void hookLogicToComponents() {
+		downloadHeader.addOpenedChangeListener(e -> this.loadDownloadContent());
 	}
 
 	private void loadContent() {
@@ -74,8 +82,11 @@ public class MethodDetailView extends VerticalLayout {
 		GenieMethod genieMethod = repository.findByEntityId(currentMethod.getEntityId());
 		this.currentMethod.setGenieMethod(genieMethod);
 
+		downloadHeader.setVisible(genieMethod.isCrawled());
+		sourceHeader.setVisible(genieMethod.isCrawled());
+		execHeader.setVisible(genieMethod.isAllowsExecution());
+		
 		this.loadMethodContent();
-		this.loadProjectContent();
 		this.loadSourceContent();
 		this.loadExecContent();
 	}
@@ -129,34 +140,66 @@ public class MethodDetailView extends VerticalLayout {
 		methodHeader.addContent(this.getDetailsLine("Name", currentMethod.getGenieMethod().getMethodName()));
 		methodHeader.addContent(this.getDetailsLines("Parameter", "Parameters", currentMethod.getGenieMethod().getParamsNames()));
 		methodHeader.addContent(this.getDetailsLine("Return", currentMethod.getGenieMethod().getReturnType()));
+		methodHeader.addContent(this.getDetailsLine("Project id", currentMethod.getGenieMethod().getProjectId() + ""));
+		methodHeader.addContent(this.getDetailsLine("Project name", currentMethod.getGenieMethod().getProjectName()));
+		methodHeader.addContent(this.getDetailsLine("Project yype", currentMethod.getGenieMethod().getProjectType()));
+}
 
-		sliceLink.setHref(GenieSearchAPIConfig.getSlicedPath() + "");
-		sliceLink.setTarget("_blank");
-		sliceLink.setText("Slice Download");
-		methodHeader.addContent(new Paragraph(""), sliceLink);
+	public StreamResource getStreamResource(Path path) {
+		return new StreamResource(path.getFileName() + "", () -> {
+			try {
+				return new ByteArrayInputStream(FileUtils.readFileToByteArray(path.toFile()));
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			return null;
+		});
 	}
 
-	private void loadProjectContent() {
-		projectHeader.setContent(null);
+	private void loadDownloadContent() {
 
-		projectHeader.addContent(this.getDetailsLine("Id", currentMethod.getGenieMethod().getProjectId() + ""));
-		projectHeader.addContent(this.getDetailsLine("Name", currentMethod.getGenieMethod().getProjectName()));
-		projectHeader.addContent(this.getDetailsLine("Type", currentMethod.getGenieMethod().getProjectType()));
+		if (!downloadHeader.isOpened())
+			return;
+
+		downloadHeader.setContent(null);
+
+		GenieMethod genieMethod = currentMethod.getGenieMethod();
+
+		// Slice
+		sliceLink.setHref(this.getStreamResource(genieMethod.getSlicedFilePath()));
+		sliceLink.setText(genieMethod.getSlicedFilePath().getFileName() + "");
+		try {
+			if (genieMethod.slice())
+				downloadHeader.addContent(new Span("Slice: "), sliceLink);
+		} catch (Exception e) {
+		}
+
+		// Jar file
+		compiledJarLink.setHref(this.getStreamResource(genieMethod.getCompiledJarPath()));
+		compiledJarLink.setText(genieMethod.getCompiledJarPath().getFileName() + "");
+		try {
+			if (genieMethod.generateJar()) {
+				downloadHeader.addContent(new Paragraph(""));
+				downloadHeader.addContent(new Span("Compiled Jar: "), compiledJarLink);
+			}
+		} catch (Exception e) {
+		}
 	}
 
 	private void loadSourceContent() {
-		
-		//TODO mostrar só se for crawled?
-		//TODO como formatar?
-		sourceHeader.addContent(new Span(currentMethod.getGenieMethod().getSourceCode()));
+		sourceHeader.setContent(null);
+		String sourceCode = currentMethod.getGenieMethod().getSourceCode();
+		PrismHighlighter sourceCodeComponent = new PrismHighlighter(sourceCode, Language.java);
+		sourceHeader.addContent(sourceCodeComponent);
+
 	}
 
-	//TODO mostrar só o metodo permitir execução
 	private void loadExecContent() {
-		compiledJarLink.setHref(GenieSearchAPIConfig.getJarPath() + "");
-		compiledJarLink.setTarget("_blank");
-		compiledJarLink.setText("Jar Download");
-		methodHeader.addContent(new Paragraph(""), sliceLink);
+
+		if(!currentMethod.getGenieMethod().isAllowsExecution())
+			return;
+		
+		// FIXME Implementar daqui pra baixo...
 	}
 
 	public void enter(Method method) {

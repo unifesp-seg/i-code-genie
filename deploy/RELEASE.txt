@@ -1,4 +1,15 @@
 ********************
+Version 1.3.0-RC-01
+
+Fixes:
+
+Features:
+
+	- MethodDetailView
+	- genie-search-api-1.6.10
+
+
+********************
 Version 1.2.0-RC-01
 
 Fixes:
