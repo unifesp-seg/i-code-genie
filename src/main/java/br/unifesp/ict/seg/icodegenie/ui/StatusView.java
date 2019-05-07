@@ -4,10 +4,12 @@ import java.util.Properties;
 
 import org.apache.commons.lang.StringUtils;
 
+import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.details.Details;
 import com.vaadin.flow.component.html.Anchor;
 import com.vaadin.flow.component.html.Paragraph;
 import com.vaadin.flow.component.html.Span;
+import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 
 import br.unifesp.ict.seg.geniesearchapi.infrastructure.GenieMethodRepository;
@@ -19,6 +21,7 @@ public class StatusView extends VerticalLayout {
 
 	private MainView mainView;
 
+	private Button back = new Button(VaadinIcon.ARROW_BACKWARD.create());
 	private Details propHeader = new Details(new Span("Properties"), null);
 	private Details repoHeader = new Details("  Repository", null);
 	private Details solrHeader = new Details("  Solr", null);
@@ -45,11 +48,13 @@ public class StatusView extends VerticalLayout {
 
 	private void buildLayout() {
 
-		add(problemsHeader, propHeader, repoHeader, solrHeader, dbHeader, appHeader);
+		add(back, problemsHeader, propHeader, repoHeader, solrHeader, dbHeader, appHeader);
 	}
 
 	private void configureComponents() {
 
+		back.setWidthFull();
+		
 		problemsHeader.getSummary().getElement().getStyle().set("color", errorColor);
 		appHeader.getSummary().getElement().getStyle().set("color", okColor);
 
@@ -69,6 +74,7 @@ public class StatusView extends VerticalLayout {
 	}
 
 	private void hookLogicToComponents() {
+		back.addClickListener(e -> { this.setVisible(false);});
 	}
 
 	private void updateContent() {

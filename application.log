@@ -1,1103 +1,810 @@
-Mon, 06/05/2019 10:03:40 - 
-Mon, 06/05/2019 10:03:40 - Genie Search API
-Mon, 06/05/2019 10:03:40 - 
-Mon, 06/05/2019 10:03:40 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:03:40 - 
-Mon, 06/05/2019 10:03:40 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:03:40 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:03:40 - database-user = root
-Mon, 06/05/2019 10:03:40 - database-password = ***
-Mon, 06/05/2019 10:03:40 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:03:40 - 
-Mon, 06/05/2019 10:03:40 - Genie Search API
-Mon, 06/05/2019 10:03:40 - 
-Mon, 06/05/2019 10:03:41 - 
-Mon, 06/05/2019 10:03:41 - Solr OFFLINE: http://localhost:8080/solr
-Mon, 06/05/2019 10:03:41 - 
-Mon, 06/05/2019 10:03:42 - 
-Mon, 06/05/2019 10:03:42 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Mon, 06/05/2019 10:03:43 - Solr Index Path configurado: null
-Mon, 06/05/2019 10:03:43 - 
-Mon, 06/05/2019 10:06:33 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:08:31 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 10:08:33 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 10:08:35 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 10:26:22 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 10:26:23 - Entity_id: 28773 Getting source code...
-Mon, 06/05/2019 10:26:24 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 10:26:38 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 10:26:40 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 10:26:40 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 10:33:55 - 
-Mon, 06/05/2019 10:33:55 - Genie Search API
-Mon, 06/05/2019 10:33:55 - 
-Mon, 06/05/2019 10:33:55 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:33:55 - 
-Mon, 06/05/2019 10:33:55 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:33:55 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:33:55 - database-user = root
-Mon, 06/05/2019 10:33:55 - database-password = ***
-Mon, 06/05/2019 10:33:55 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:33:55 - 
-Mon, 06/05/2019 10:33:55 - Genie Search API
-Mon, 06/05/2019 10:33:55 - 
-Mon, 06/05/2019 10:34:04 - 
-Mon, 06/05/2019 10:34:04 - Genie Search API
-Mon, 06/05/2019 10:34:04 - 
-Mon, 06/05/2019 10:34:04 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:34:04 - 
-Mon, 06/05/2019 10:34:04 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:34:04 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:34:04 - database-user = root
-Mon, 06/05/2019 10:34:04 - database-password = ***
-Mon, 06/05/2019 10:34:04 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:34:04 - 
-Mon, 06/05/2019 10:34:04 - Genie Search API
-Mon, 06/05/2019 10:34:04 - 
-Mon, 06/05/2019 10:34:39 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:34:48 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:36:10 - 
-Mon, 06/05/2019 10:36:10 - Genie Search API
-Mon, 06/05/2019 10:36:10 - 
-Mon, 06/05/2019 10:36:10 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:36:10 - 
-Mon, 06/05/2019 10:36:10 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:36:10 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:36:10 - database-user = root
-Mon, 06/05/2019 10:36:10 - database-password = ***
-Mon, 06/05/2019 10:36:10 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:36:10 - 
-Mon, 06/05/2019 10:36:10 - Genie Search API
-Mon, 06/05/2019 10:36:10 - 
-Mon, 06/05/2019 10:36:12 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:36:12 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:36:25 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 10:36:27 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 10:36:27 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 10:36:28 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 10:36:28 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 10:36:44 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:36:46 - 
-Mon, 06/05/2019 10:36:46 - Genie Search API
-Mon, 06/05/2019 10:36:46 - 
-Mon, 06/05/2019 10:36:46 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:36:46 - 
-Mon, 06/05/2019 10:36:46 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:36:46 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:36:46 - database-user = root
-Mon, 06/05/2019 10:36:46 - database-password = ***
-Mon, 06/05/2019 10:36:46 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:36:46 - 
-Mon, 06/05/2019 10:36:46 - Genie Search API
-Mon, 06/05/2019 10:36:46 - 
-Mon, 06/05/2019 10:36:48 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:38:05 - 
-Mon, 06/05/2019 10:38:05 - Genie Search API
-Mon, 06/05/2019 10:38:05 - 
-Mon, 06/05/2019 10:38:05 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:38:05 - 
-Mon, 06/05/2019 10:38:05 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:38:05 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:38:05 - database-user = root
-Mon, 06/05/2019 10:38:05 - database-password = ***
-Mon, 06/05/2019 10:38:05 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:38:05 - 
-Mon, 06/05/2019 10:38:05 - Genie Search API
-Mon, 06/05/2019 10:38:05 - 
-Mon, 06/05/2019 10:38:07 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:38:32 - 
-Mon, 06/05/2019 10:38:32 - Genie Search API
-Mon, 06/05/2019 10:38:32 - 
-Mon, 06/05/2019 10:38:32 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:38:32 - 
-Mon, 06/05/2019 10:38:32 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:38:32 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:38:32 - database-user = root
-Mon, 06/05/2019 10:38:32 - database-password = ***
-Mon, 06/05/2019 10:38:32 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:38:32 - 
-Mon, 06/05/2019 10:38:32 - Genie Search API
-Mon, 06/05/2019 10:38:32 - 
-Mon, 06/05/2019 10:38:39 - 
-Mon, 06/05/2019 10:38:39 - Genie Search API
-Mon, 06/05/2019 10:38:39 - 
-Mon, 06/05/2019 10:38:39 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:38:39 - 
-Mon, 06/05/2019 10:38:39 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:38:39 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:38:39 - database-user = root
-Mon, 06/05/2019 10:38:39 - database-password = ***
-Mon, 06/05/2019 10:38:39 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:38:39 - 
-Mon, 06/05/2019 10:38:39 - Genie Search API
-Mon, 06/05/2019 10:38:39 - 
-Mon, 06/05/2019 10:38:41 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:39:11 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:39:13 - 
-Mon, 06/05/2019 10:39:13 - Genie Search API
-Mon, 06/05/2019 10:39:13 - 
-Mon, 06/05/2019 10:39:13 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:39:13 - 
-Mon, 06/05/2019 10:39:13 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:39:13 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:39:13 - database-user = root
-Mon, 06/05/2019 10:39:13 - database-password = ***
-Mon, 06/05/2019 10:39:13 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:39:13 - 
-Mon, 06/05/2019 10:39:13 - Genie Search API
-Mon, 06/05/2019 10:39:13 - 
-Mon, 06/05/2019 10:39:15 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:40:52 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:40:55 - 
-Mon, 06/05/2019 10:40:55 - Genie Search API
-Mon, 06/05/2019 10:40:55 - 
-Mon, 06/05/2019 10:40:55 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:40:55 - 
-Mon, 06/05/2019 10:40:55 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:40:55 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:40:55 - database-user = root
-Mon, 06/05/2019 10:40:55 - database-password = ***
-Mon, 06/05/2019 10:40:55 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:40:55 - 
-Mon, 06/05/2019 10:40:55 - Genie Search API
-Mon, 06/05/2019 10:40:55 - 
-Mon, 06/05/2019 10:41:00 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:43:03 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 10:43:04 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 10:43:04 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 10:43:05 - Entity_id: 49016 Getting source code...
-Mon, 06/05/2019 10:43:06 - Entity_id: 29505 Getting source code...
-Mon, 06/05/2019 10:43:08 - Entity_id: 49016 Getting source code...
-Mon, 06/05/2019 10:43:08 - Entity_id: 54019 Getting source code...
-Mon, 06/05/2019 10:43:09 - Entity_id: 54020 Getting source code...
-Mon, 06/05/2019 10:43:10 - Entity_id: 68711 Getting source code...
-Mon, 06/05/2019 10:43:11 - Entity_id: 54020 Getting source code...
-Mon, 06/05/2019 10:46:06 - 
-Mon, 06/05/2019 10:46:06 - Genie Search API
-Mon, 06/05/2019 10:46:06 - 
-Mon, 06/05/2019 10:46:06 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:46:06 - 
-Mon, 06/05/2019 10:46:06 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:46:06 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:46:06 - database-user = root
-Mon, 06/05/2019 10:46:06 - database-password = ***
-Mon, 06/05/2019 10:46:06 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:46:06 - 
-Mon, 06/05/2019 10:46:06 - Genie Search API
-Mon, 06/05/2019 10:46:06 - 
-Mon, 06/05/2019 10:51:02 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:54:33 - 
-Mon, 06/05/2019 10:54:33 - Genie Search API
-Mon, 06/05/2019 10:54:33 - 
-Mon, 06/05/2019 10:54:33 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:54:33 - 
-Mon, 06/05/2019 10:54:33 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:54:33 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:54:33 - database-user = root
-Mon, 06/05/2019 10:54:33 - database-password = ***
-Mon, 06/05/2019 10:54:33 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:54:33 - 
-Mon, 06/05/2019 10:54:33 - Genie Search API
-Mon, 06/05/2019 10:54:33 - 
-Mon, 06/05/2019 10:54:40 - 
-Mon, 06/05/2019 10:54:40 - Genie Search API
-Mon, 06/05/2019 10:54:40 - 
-Mon, 06/05/2019 10:54:40 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:54:40 - 
-Mon, 06/05/2019 10:54:40 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:54:40 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:54:40 - database-user = root
-Mon, 06/05/2019 10:54:40 - database-password = ***
-Mon, 06/05/2019 10:54:40 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:54:40 - 
-Mon, 06/05/2019 10:54:40 - Genie Search API
-Mon, 06/05/2019 10:54:40 - 
-Mon, 06/05/2019 10:54:50 - 
-Mon, 06/05/2019 10:54:50 - Genie Search API
-Mon, 06/05/2019 10:54:50 - 
-Mon, 06/05/2019 10:54:50 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:54:50 - 
-Mon, 06/05/2019 10:54:50 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:54:50 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:54:50 - database-user = root
-Mon, 06/05/2019 10:54:50 - database-password = ***
-Mon, 06/05/2019 10:54:50 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:54:50 - 
-Mon, 06/05/2019 10:54:50 - Genie Search API
-Mon, 06/05/2019 10:54:50 - 
-Mon, 06/05/2019 10:54:54 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:55:13 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:56:26 - 
-Mon, 06/05/2019 10:56:26 - Genie Search API
-Mon, 06/05/2019 10:56:26 - 
-Mon, 06/05/2019 10:56:26 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:56:26 - 
-Mon, 06/05/2019 10:56:26 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:56:26 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:56:26 - database-user = root
-Mon, 06/05/2019 10:56:26 - database-password = ***
-Mon, 06/05/2019 10:56:26 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:56:26 - 
-Mon, 06/05/2019 10:56:26 - Genie Search API
-Mon, 06/05/2019 10:56:26 - 
-Mon, 06/05/2019 10:56:27 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:57:47 - 
-Mon, 06/05/2019 10:57:47 - Genie Search API
-Mon, 06/05/2019 10:57:47 - 
-Mon, 06/05/2019 10:57:47 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:57:47 - 
-Mon, 06/05/2019 10:57:47 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:57:47 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:57:47 - database-user = root
-Mon, 06/05/2019 10:57:47 - database-password = ***
-Mon, 06/05/2019 10:57:47 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:57:47 - 
-Mon, 06/05/2019 10:57:47 - Genie Search API
-Mon, 06/05/2019 10:57:47 - 
-Mon, 06/05/2019 10:58:03 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:59:15 - 
-Mon, 06/05/2019 10:59:15 - Genie Search API
-Mon, 06/05/2019 10:59:15 - 
-Mon, 06/05/2019 10:59:15 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 10:59:15 - 
-Mon, 06/05/2019 10:59:15 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 10:59:15 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 10:59:15 - database-user = root
-Mon, 06/05/2019 10:59:15 - database-password = ***
-Mon, 06/05/2019 10:59:15 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 10:59:15 - 
-Mon, 06/05/2019 10:59:15 - Genie Search API
-Mon, 06/05/2019 10:59:15 - 
-Mon, 06/05/2019 10:59:19 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 10:59:33 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:00:48 - Entity_id: 150781 Getting source code...
-Mon, 06/05/2019 11:00:49 - Entity_id: 48566 Getting source code...
-Mon, 06/05/2019 11:00:50 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 11:00:51 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 11:00:53 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 11:00:54 - Entity_id: 28773 Getting source code...
-Mon, 06/05/2019 11:00:55 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 11:00:56 - Entity_id: 29505 Getting source code...
-Mon, 06/05/2019 11:00:57 - Entity_id: 49016 Getting source code...
-Mon, 06/05/2019 11:00:58 - Entity_id: 54019 Getting source code...
-Mon, 06/05/2019 11:00:59 - Entity_id: 54020 Getting source code...
-Mon, 06/05/2019 11:00:59 - Entity_id: 68711 Getting source code...
-Mon, 06/05/2019 11:01:01 - Entity_id: 89975 Getting source code...
-Mon, 06/05/2019 11:01:01 - Entity_id: 89976 Getting source code...
-Mon, 06/05/2019 11:01:02 - Entity_id: 91982 Getting source code...
-Mon, 06/05/2019 11:01:03 - Entity_id: 92653 Getting source code...
-Mon, 06/05/2019 11:01:04 - Entity_id: 91982 Getting source code...
-Mon, 06/05/2019 11:01:46 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:01:48 - 
-Mon, 06/05/2019 11:01:48 - Genie Search API
-Mon, 06/05/2019 11:01:48 - 
-Mon, 06/05/2019 11:01:48 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 11:01:48 - 
-Mon, 06/05/2019 11:01:48 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 11:01:48 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 11:01:48 - database-user = root
-Mon, 06/05/2019 11:01:48 - database-password = ***
-Mon, 06/05/2019 11:01:48 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 11:01:48 - 
-Mon, 06/05/2019 11:01:48 - Genie Search API
-Mon, 06/05/2019 11:01:48 - 
-Mon, 06/05/2019 11:02:00 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:02:07 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 11:02:08 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 11:02:09 - Entity_id: 28773 Getting source code...
-Mon, 06/05/2019 11:02:10 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 11:02:11 - Entity_id: 29505 Getting source code...
-Mon, 06/05/2019 11:02:12 - Entity_id: 49016 Getting source code...
-Mon, 06/05/2019 11:02:12 - Entity_id: 54019 Getting source code...
-Mon, 06/05/2019 11:02:13 - Entity_id: 68711 Getting source code...
-Mon, 06/05/2019 11:02:14 - Entity_id: 89975 Getting source code...
-Mon, 06/05/2019 11:02:14 - Entity_id: 91982 Getting source code...
-Mon, 06/05/2019 11:02:15 - Entity_id: 89976 Getting source code...
-Mon, 06/05/2019 11:02:16 - Entity_id: 68711 Getting source code...
-Mon, 06/05/2019 11:02:16 - Entity_id: 54020 Getting source code...
-Mon, 06/05/2019 11:02:17 - Entity_id: 29505 Getting source code...
-Mon, 06/05/2019 11:02:17 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 11:02:18 - Entity_id: 28773 Getting source code...
-Mon, 06/05/2019 11:02:19 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 11:02:19 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 11:02:20 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 11:02:21 - Entity_id: 48566 Getting source code...
-Mon, 06/05/2019 11:02:22 - Entity_id: 150781 Getting source code...
-Mon, 06/05/2019 11:02:23 - Entity_id: 48566 Getting source code...
-Mon, 06/05/2019 11:02:24 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 11:02:24 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 11:02:25 - Entity_id: 35036 Getting source code...
-Mon, 06/05/2019 11:02:26 - Entity_id: 53475 Getting source code...
-Mon, 06/05/2019 11:02:26 - Entity_id: 54472 Getting source code...
-Mon, 06/05/2019 11:02:27 - Entity_id: 54524 Getting source code...
-Mon, 06/05/2019 11:02:27 - Entity_id: 118358 Getting source code...
-Mon, 06/05/2019 11:02:28 - Entity_id: 118497 Getting source code...
-Mon, 06/05/2019 11:02:28 - Entity_id: 118498 Getting source code...
-Mon, 06/05/2019 11:02:29 - Entity_id: 119438 Getting source code...
-Mon, 06/05/2019 11:02:30 - Entity_id: 118566 Getting source code...
-Mon, 06/05/2019 11:02:36 - Entity_id: 119438 Getting source code...
-Mon, 06/05/2019 11:02:37 - Entity_id: 119526 Getting source code...
-Mon, 06/05/2019 11:02:38 - Entity_id: 213976 Getting source code...
-Mon, 06/05/2019 11:02:40 - Entity_id: 540116 Getting source code...
-Mon, 06/05/2019 11:02:41 - Entity_id: 160894 Getting source code...
-Mon, 06/05/2019 11:02:42 - Entity_id: 9222 Getting source code...
-Mon, 06/05/2019 11:02:43 - Entity_id: 48860 Getting source code...
-Mon, 06/05/2019 11:02:45 - Entity_id: 74357 Getting source code...
-Mon, 06/05/2019 11:02:45 - Entity_id: 74347 Getting source code...
-Mon, 06/05/2019 11:02:46 - Entity_id: 74272 Getting source code...
-Mon, 06/05/2019 11:02:46 - Entity_id: 57979 Getting source code...
-Mon, 06/05/2019 11:02:47 - Entity_id: 56793 Getting source code...
-Mon, 06/05/2019 11:02:47 - Entity_id: 54026 Getting source code...
-Mon, 06/05/2019 11:02:51 - Entity_id: 150781 Getting source code...
-Mon, 06/05/2019 11:02:59 - Entity_id: 48566 Getting source code...
-Mon, 06/05/2019 11:03:00 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 11:03:00 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 11:03:01 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 11:03:02 - Entity_id: 28773 Getting source code...
-Mon, 06/05/2019 11:03:02 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 11:03:02 - Entity_id: 29505 Getting source code...
-Mon, 06/05/2019 11:03:03 - Entity_id: 54019 Getting source code...
-Mon, 06/05/2019 11:03:03 - Entity_id: 68711 Getting source code...
-Mon, 06/05/2019 11:03:04 - Entity_id: 49016 Getting source code...
-Mon, 06/05/2019 11:03:04 - Entity_id: 28773 Getting source code...
-Mon, 06/05/2019 11:03:08 - Entity_id: 29505 Getting source code...
-Mon, 06/05/2019 11:03:09 - Entity_id: 118718 Getting source code...
-Mon, 06/05/2019 11:03:10 - Entity_id: 546623 Getting source code...
-Mon, 06/05/2019 11:03:11 - Entity_id: 40014 Getting source code...
-Mon, 06/05/2019 11:04:04 - 
-Mon, 06/05/2019 11:04:04 - Genie Search API
-Mon, 06/05/2019 11:04:04 - 
-Mon, 06/05/2019 11:04:04 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 11:04:04 - 
-Mon, 06/05/2019 11:04:04 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 11:04:04 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 11:04:04 - database-user = root
-Mon, 06/05/2019 11:04:04 - database-password = ***
-Mon, 06/05/2019 11:04:04 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 11:04:04 - 
-Mon, 06/05/2019 11:04:04 - Genie Search API
-Mon, 06/05/2019 11:04:04 - 
-Mon, 06/05/2019 11:04:05 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:04:21 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:04:23 - 
-Mon, 06/05/2019 11:04:23 - Genie Search API
-Mon, 06/05/2019 11:04:23 - 
-Mon, 06/05/2019 11:04:23 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 11:04:23 - 
-Mon, 06/05/2019 11:04:23 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 11:04:23 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 11:04:23 - database-user = root
-Mon, 06/05/2019 11:04:23 - database-password = ***
-Mon, 06/05/2019 11:04:23 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 11:04:23 - 
-Mon, 06/05/2019 11:04:23 - Genie Search API
-Mon, 06/05/2019 11:04:23 - 
-Mon, 06/05/2019 11:04:25 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:21:46 - 
-Mon, 06/05/2019 11:21:46 - Genie Search API
-Mon, 06/05/2019 11:21:46 - 
-Mon, 06/05/2019 11:21:46 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 11:21:46 - 
-Mon, 06/05/2019 11:21:46 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 11:21:46 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 11:21:46 - database-user = root
-Mon, 06/05/2019 11:21:46 - database-password = ***
-Mon, 06/05/2019 11:21:46 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 11:21:46 - 
-Mon, 06/05/2019 11:21:46 - Genie Search API
-Mon, 06/05/2019 11:21:46 - 
-Mon, 06/05/2019 11:23:35 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:23:52 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:24:23 - 
-Mon, 06/05/2019 11:24:23 - Genie Search API
-Mon, 06/05/2019 11:24:23 - 
-Mon, 06/05/2019 11:24:23 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 11:24:23 - 
-Mon, 06/05/2019 11:24:23 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 11:24:23 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 11:24:23 - database-user = root
-Mon, 06/05/2019 11:24:23 - database-password = ***
-Mon, 06/05/2019 11:24:23 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 11:24:23 - 
-Mon, 06/05/2019 11:24:23 - Genie Search API
-Mon, 06/05/2019 11:24:23 - 
-Mon, 06/05/2019 11:24:33 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:29:32 - 
-Mon, 06/05/2019 11:29:32 - Genie Search API
-Mon, 06/05/2019 11:29:32 - 
-Mon, 06/05/2019 11:29:32 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 11:29:32 - 
-Mon, 06/05/2019 11:29:32 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 11:29:32 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 11:29:32 - database-user = root
-Mon, 06/05/2019 11:29:32 - database-password = ***
-Mon, 06/05/2019 11:29:32 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 11:29:32 - 
-Mon, 06/05/2019 11:29:32 - Genie Search API
-Mon, 06/05/2019 11:29:32 - 
-Mon, 06/05/2019 11:37:41 - 
-Mon, 06/05/2019 11:37:41 - Genie Search API
-Mon, 06/05/2019 11:37:41 - 
-Mon, 06/05/2019 11:37:41 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 11:37:41 - 
-Mon, 06/05/2019 11:37:41 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 11:37:41 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 11:37:41 - database-user = root
-Mon, 06/05/2019 11:37:41 - database-password = ***
-Mon, 06/05/2019 11:37:41 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 11:37:41 - 
-Mon, 06/05/2019 11:37:41 - Genie Search API
-Mon, 06/05/2019 11:37:41 - 
-Mon, 06/05/2019 11:37:45 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:39:06 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 11:55:20 - 
-Mon, 06/05/2019 11:55:20 - Genie Search API
-Mon, 06/05/2019 11:55:20 - 
-Mon, 06/05/2019 11:55:20 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 11:55:20 - 
-Mon, 06/05/2019 11:55:20 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 11:55:20 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 11:55:20 - database-user = root
-Mon, 06/05/2019 11:55:20 - database-password = ***
-Mon, 06/05/2019 11:55:20 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 11:55:20 - 
-Mon, 06/05/2019 11:55:20 - Genie Search API
-Mon, 06/05/2019 11:55:20 - 
-Mon, 06/05/2019 12:08:03 - 
-Mon, 06/05/2019 12:08:03 - Genie Search API
-Mon, 06/05/2019 12:08:03 - 
-Mon, 06/05/2019 12:08:03 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 12:08:03 - 
-Mon, 06/05/2019 12:08:03 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 12:08:03 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 12:08:03 - database-user = root
-Mon, 06/05/2019 12:08:03 - database-password = ***
-Mon, 06/05/2019 12:08:03 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 12:08:03 - 
-Mon, 06/05/2019 12:08:03 - Genie Search API
-Mon, 06/05/2019 12:08:03 - 
-Mon, 06/05/2019 12:08:35 - 
-Mon, 06/05/2019 12:08:35 - Genie Search API
-Mon, 06/05/2019 12:08:35 - 
-Mon, 06/05/2019 12:08:35 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 12:08:35 - 
-Mon, 06/05/2019 12:08:35 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 12:08:35 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 12:08:35 - database-user = root
-Mon, 06/05/2019 12:08:35 - database-password = ***
-Mon, 06/05/2019 12:08:35 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 12:08:35 - 
-Mon, 06/05/2019 12:08:35 - Genie Search API
-Mon, 06/05/2019 12:08:35 - 
-Mon, 06/05/2019 12:09:18 - 
-Mon, 06/05/2019 12:09:18 - Genie Search API
-Mon, 06/05/2019 12:09:18 - 
-Mon, 06/05/2019 12:09:18 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 12:09:18 - 
-Mon, 06/05/2019 12:09:18 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 12:09:18 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 12:09:18 - database-user = root
-Mon, 06/05/2019 12:09:18 - database-password = ***
-Mon, 06/05/2019 12:09:18 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 12:09:18 - 
-Mon, 06/05/2019 12:09:18 - Genie Search API
-Mon, 06/05/2019 12:09:18 - 
-Mon, 06/05/2019 12:10:07 - 
-Mon, 06/05/2019 12:10:07 - Genie Search API
-Mon, 06/05/2019 12:10:07 - 
-Mon, 06/05/2019 12:10:07 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 12:10:07 - 
-Mon, 06/05/2019 12:10:07 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 12:10:07 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 12:10:07 - database-user = root
-Mon, 06/05/2019 12:10:07 - database-password = ***
-Mon, 06/05/2019 12:10:07 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 12:10:07 - 
-Mon, 06/05/2019 12:10:07 - Genie Search API
-Mon, 06/05/2019 12:10:07 - 
-Mon, 06/05/2019 12:12:54 - 
-Mon, 06/05/2019 12:12:54 - Genie Search API
-Mon, 06/05/2019 12:12:54 - 
-Mon, 06/05/2019 12:12:54 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 12:12:54 - 
-Mon, 06/05/2019 12:12:54 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 12:12:54 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 12:12:54 - database-user = root
-Mon, 06/05/2019 12:12:54 - database-password = ***
-Mon, 06/05/2019 12:12:54 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 12:12:54 - 
-Mon, 06/05/2019 12:12:54 - Genie Search API
-Mon, 06/05/2019 12:12:54 - 
-Mon, 06/05/2019 12:14:21 - 
-Mon, 06/05/2019 12:14:21 - Genie Search API
-Mon, 06/05/2019 12:14:21 - 
-Mon, 06/05/2019 12:14:21 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 12:14:21 - 
-Mon, 06/05/2019 12:14:21 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 12:14:21 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 12:14:21 - database-user = root
-Mon, 06/05/2019 12:14:21 - database-password = ***
-Mon, 06/05/2019 12:14:21 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 12:14:21 - 
-Mon, 06/05/2019 12:14:21 - Genie Search API
-Mon, 06/05/2019 12:14:21 - 
-Mon, 06/05/2019 12:14:32 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 12:27:48 - 
-Mon, 06/05/2019 12:27:48 - Genie Search API
-Mon, 06/05/2019 12:27:48 - 
-Mon, 06/05/2019 12:27:48 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 12:27:48 - 
-Mon, 06/05/2019 12:27:48 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 12:27:48 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 12:27:48 - database-user = root
-Mon, 06/05/2019 12:27:48 - database-password = ***
-Mon, 06/05/2019 12:27:48 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 12:27:48 - 
-Mon, 06/05/2019 12:27:48 - Genie Search API
-Mon, 06/05/2019 12:27:48 - 
-Mon, 06/05/2019 12:27:51 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 12:33:12 - 
-Mon, 06/05/2019 12:33:12 - Genie Search API
-Mon, 06/05/2019 12:33:12 - 
-Mon, 06/05/2019 12:33:12 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 12:33:12 - 
-Mon, 06/05/2019 12:33:12 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 12:33:12 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 12:33:12 - database-user = root
-Mon, 06/05/2019 12:33:12 - database-password = ***
-Mon, 06/05/2019 12:33:12 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 12:33:12 - 
-Mon, 06/05/2019 12:33:12 - Genie Search API
-Mon, 06/05/2019 12:33:12 - 
-Mon, 06/05/2019 12:34:14 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 12:34:16 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 12:36:26 - 
-Mon, 06/05/2019 12:36:26 - Genie Search API
-Mon, 06/05/2019 12:36:26 - 
-Mon, 06/05/2019 12:36:26 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 12:36:26 - 
-Mon, 06/05/2019 12:36:26 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 12:36:26 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 12:36:26 - database-user = root
-Mon, 06/05/2019 12:36:26 - database-password = ***
-Mon, 06/05/2019 12:36:26 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 12:36:26 - 
-Mon, 06/05/2019 12:36:26 - Genie Search API
-Mon, 06/05/2019 12:36:26 - 
-Mon, 06/05/2019 12:36:45 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 12:37:36 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 14:27:14 - 
-Mon, 06/05/2019 14:27:14 - Genie Search API
-Mon, 06/05/2019 14:27:14 - 
-Mon, 06/05/2019 14:27:14 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 14:27:14 - 
-Mon, 06/05/2019 14:27:14 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 14:27:14 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 14:27:14 - database-user = root
-Mon, 06/05/2019 14:27:14 - database-password = ***
-Mon, 06/05/2019 14:27:14 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 14:27:14 - 
-Mon, 06/05/2019 14:27:14 - Genie Search API
-Mon, 06/05/2019 14:27:14 - 
-Mon, 06/05/2019 14:27:31 - 
-Mon, 06/05/2019 14:27:31 - Genie Search API
-Mon, 06/05/2019 14:27:31 - 
-Mon, 06/05/2019 14:27:31 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 14:27:31 - 
-Mon, 06/05/2019 14:27:31 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 14:27:31 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 14:27:31 - database-user = root
-Mon, 06/05/2019 14:27:31 - database-password = ***
-Mon, 06/05/2019 14:27:31 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 14:27:31 - 
-Mon, 06/05/2019 14:27:31 - Genie Search API
-Mon, 06/05/2019 14:27:31 - 
-Mon, 06/05/2019 14:27:37 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 14:28:08 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 14:28:15 - 
-Mon, 06/05/2019 14:28:15 - Genie Search API
-Mon, 06/05/2019 14:28:15 - 
-Mon, 06/05/2019 14:28:15 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 14:28:15 - 
-Mon, 06/05/2019 14:28:15 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 14:28:15 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 14:28:15 - database-user = root
-Mon, 06/05/2019 14:28:15 - database-password = ***
-Mon, 06/05/2019 14:28:15 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 14:28:15 - 
-Mon, 06/05/2019 14:28:15 - Genie Search API
-Mon, 06/05/2019 14:28:15 - 
-Mon, 06/05/2019 14:33:10 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 14:56:28 - 
-Mon, 06/05/2019 14:56:28 - Genie Search API
-Mon, 06/05/2019 14:56:28 - 
-Mon, 06/05/2019 14:56:28 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 14:56:28 - 
-Mon, 06/05/2019 14:56:28 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 14:56:28 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 14:56:28 - database-user = root
-Mon, 06/05/2019 14:56:28 - database-password = ***
-Mon, 06/05/2019 14:56:28 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 14:56:28 - 
-Mon, 06/05/2019 14:56:28 - Genie Search API
-Mon, 06/05/2019 14:56:28 - 
-Mon, 06/05/2019 14:56:31 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 14:56:36 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 14:56:37 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 14:56:37 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 14:56:37 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 14:56:37 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 14:56:37 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 14:57:03 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 14:58:10 - 
-Mon, 06/05/2019 14:58:10 - Genie Search API
-Mon, 06/05/2019 14:58:10 - 
-Mon, 06/05/2019 14:58:10 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 14:58:10 - 
-Mon, 06/05/2019 14:58:10 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 14:58:10 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 14:58:10 - database-user = root
-Mon, 06/05/2019 14:58:10 - database-password = ***
-Mon, 06/05/2019 14:58:10 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 14:58:10 - 
-Mon, 06/05/2019 14:58:10 - Genie Search API
-Mon, 06/05/2019 14:58:10 - 
-Mon, 06/05/2019 14:58:11 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 14:59:21 - 
-Mon, 06/05/2019 14:59:21 - Genie Search API
-Mon, 06/05/2019 14:59:21 - 
-Mon, 06/05/2019 14:59:21 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 14:59:21 - 
-Mon, 06/05/2019 14:59:21 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 14:59:21 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 14:59:21 - database-user = root
-Mon, 06/05/2019 14:59:21 - database-password = ***
-Mon, 06/05/2019 14:59:21 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 14:59:21 - 
-Mon, 06/05/2019 14:59:21 - Genie Search API
-Mon, 06/05/2019 14:59:21 - 
-Mon, 06/05/2019 14:59:24 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 14:59:31 - Entity_id: 150781 Getting source code...
-Mon, 06/05/2019 14:59:33 - Entity_id: 48566 Getting source code...
-Mon, 06/05/2019 14:59:34 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 14:59:41 - Entity_id: 28712 Slicing...
-Mon, 06/05/2019 15:00:15 - Entity_id: 28712 Slicing...
-Mon, 06/05/2019 15:00:34 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:00:59 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:01:05 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:01:05 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:01:05 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:01:05 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:02:06 - 
-Mon, 06/05/2019 15:02:06 - Genie Search API
-Mon, 06/05/2019 15:02:06 - 
-Mon, 06/05/2019 15:02:06 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:02:06 - 
-Mon, 06/05/2019 15:02:06 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:02:06 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:02:06 - database-user = root
-Mon, 06/05/2019 15:02:06 - database-password = ***
-Mon, 06/05/2019 15:02:06 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:02:06 - 
-Mon, 06/05/2019 15:02:06 - Genie Search API
-Mon, 06/05/2019 15:02:06 - 
-Mon, 06/05/2019 15:02:10 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:02:15 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:02:15 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:02:15 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:02:15 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:02:15 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:04:52 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:04:56 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:04:56 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:04:56 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:04:56 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:06:14 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:06:14 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:06:14 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:06:14 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:06:14 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:06:18 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:06:18 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:06:18 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:06:18 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:06:18 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:06:54 - 
-Mon, 06/05/2019 15:06:54 - Genie Search API
-Mon, 06/05/2019 15:06:54 - 
-Mon, 06/05/2019 15:06:54 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:06:54 - 
-Mon, 06/05/2019 15:06:54 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:06:54 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:06:54 - database-user = root
-Mon, 06/05/2019 15:06:54 - database-password = ***
-Mon, 06/05/2019 15:06:54 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:06:54 - 
-Mon, 06/05/2019 15:06:54 - Genie Search API
-Mon, 06/05/2019 15:06:54 - 
-Mon, 06/05/2019 15:07:01 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:07:10 - Entity_id: 48566 Getting source code...
-Mon, 06/05/2019 15:07:19 - Entity_id: 48566 Slicing...
-Mon, 06/05/2019 15:07:31 - Entity_id: 48566 Slicing...
-Mon, 06/05/2019 15:07:33 - Entity_id: 48566 Slicing...
-Mon, 06/05/2019 15:08:40 - 
-Mon, 06/05/2019 15:08:40 - Genie Search API
-Mon, 06/05/2019 15:08:40 - 
-Mon, 06/05/2019 15:08:40 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:08:40 - 
-Mon, 06/05/2019 15:08:40 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:08:40 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:08:40 - database-user = root
-Mon, 06/05/2019 15:08:40 - database-password = ***
-Mon, 06/05/2019 15:08:40 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:08:40 - 
-Mon, 06/05/2019 15:08:40 - Genie Search API
-Mon, 06/05/2019 15:08:40 - 
-Mon, 06/05/2019 15:08:45 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:08:52 - Entity_id: 48566 Getting source code...
-Mon, 06/05/2019 15:08:54 - Entity_id: 48566 Slicing...
-Mon, 06/05/2019 15:08:56 - Entity_id: 48566 Slicing...
-Mon, 06/05/2019 15:09:07 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 15:09:10 - Entity_id: 28648 Slicing...
-Mon, 06/05/2019 15:09:14 - Entity_id: 28773 Getting source code...
-Mon, 06/05/2019 15:09:16 - Entity_id: 29505 Getting source code...
-Mon, 06/05/2019 15:09:17 - Entity_id: 28773 Getting source code...
-Mon, 06/05/2019 15:09:18 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 15:09:19 - Entity_id: 54020 Getting source code...
-Mon, 06/05/2019 15:10:09 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:10:16 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:10:16 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:10:16 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:10:16 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:10:16 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:11:32 - 
-Mon, 06/05/2019 15:11:32 - Genie Search API
-Mon, 06/05/2019 15:11:32 - 
-Mon, 06/05/2019 15:11:32 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:11:32 - 
-Mon, 06/05/2019 15:11:32 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:11:32 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:11:32 - database-user = root
-Mon, 06/05/2019 15:11:32 - database-password = ***
-Mon, 06/05/2019 15:11:32 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:11:32 - 
-Mon, 06/05/2019 15:11:32 - Genie Search API
-Mon, 06/05/2019 15:11:32 - 
-Mon, 06/05/2019 15:11:34 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:11:57 - 
-Mon, 06/05/2019 15:11:57 - Genie Search API
-Mon, 06/05/2019 15:11:57 - 
-Mon, 06/05/2019 15:11:57 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:11:57 - 
-Mon, 06/05/2019 15:11:57 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:11:57 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:11:57 - database-user = root
-Mon, 06/05/2019 15:11:57 - database-password = ***
-Mon, 06/05/2019 15:11:57 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:11:57 - 
-Mon, 06/05/2019 15:11:57 - Genie Search API
-Mon, 06/05/2019 15:11:57 - 
-Mon, 06/05/2019 15:11:58 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:12:00 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:12:00 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:12:00 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:12:00 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:12:00 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:12:47 - 
-Mon, 06/05/2019 15:12:47 - Genie Search API
-Mon, 06/05/2019 15:12:47 - 
-Mon, 06/05/2019 15:12:47 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:12:47 - 
-Mon, 06/05/2019 15:12:47 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:12:47 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:12:47 - database-user = root
-Mon, 06/05/2019 15:12:47 - database-password = ***
-Mon, 06/05/2019 15:12:47 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:12:47 - 
-Mon, 06/05/2019 15:12:47 - Genie Search API
-Mon, 06/05/2019 15:12:47 - 
-Mon, 06/05/2019 15:12:50 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:12:52 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:12:52 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:12:52 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:12:52 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:12:52 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:13:23 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:13:25 - 
-Mon, 06/05/2019 15:13:25 - Genie Search API
-Mon, 06/05/2019 15:13:25 - 
-Mon, 06/05/2019 15:13:25 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:13:25 - 
-Mon, 06/05/2019 15:13:25 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:13:25 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:13:25 - database-user = root
-Mon, 06/05/2019 15:13:25 - database-password = ***
-Mon, 06/05/2019 15:13:25 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:13:25 - 
-Mon, 06/05/2019 15:13:25 - Genie Search API
-Mon, 06/05/2019 15:13:25 - 
-Mon, 06/05/2019 15:13:27 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:13:51 - 
-Mon, 06/05/2019 15:13:51 - Genie Search API
-Mon, 06/05/2019 15:13:51 - 
-Mon, 06/05/2019 15:13:51 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:13:51 - 
-Mon, 06/05/2019 15:13:51 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:13:51 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:13:51 - database-user = root
-Mon, 06/05/2019 15:13:51 - database-password = ***
-Mon, 06/05/2019 15:13:51 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:13:51 - 
-Mon, 06/05/2019 15:13:51 - Genie Search API
-Mon, 06/05/2019 15:13:51 - 
-Mon, 06/05/2019 15:13:52 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:13:53 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:13:56 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:13:56 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:13:56 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:13:56 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:13:56 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:14:53 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:14:55 - 
-Mon, 06/05/2019 15:14:55 - Genie Search API
-Mon, 06/05/2019 15:14:55 - 
-Mon, 06/05/2019 15:14:55 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:14:55 - 
-Mon, 06/05/2019 15:14:55 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:14:55 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:14:55 - database-user = root
-Mon, 06/05/2019 15:14:55 - database-password = ***
-Mon, 06/05/2019 15:14:55 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:14:55 - 
-Mon, 06/05/2019 15:14:55 - Genie Search API
-Mon, 06/05/2019 15:14:55 - 
-Mon, 06/05/2019 15:15:04 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:15:07 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:15:07 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:15:07 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:15:07 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:15:07 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:15:25 - 
-Mon, 06/05/2019 15:15:25 - Genie Search API
-Mon, 06/05/2019 15:15:25 - 
-Mon, 06/05/2019 15:15:25 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:15:25 - 
-Mon, 06/05/2019 15:15:25 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:15:25 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:15:25 - database-user = root
-Mon, 06/05/2019 15:15:25 - database-password = ***
-Mon, 06/05/2019 15:15:25 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:15:25 - 
-Mon, 06/05/2019 15:15:25 - Genie Search API
-Mon, 06/05/2019 15:15:25 - 
-Mon, 06/05/2019 15:15:26 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:15:31 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:15:33 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:15:33 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:15:33 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:15:33 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:15:33 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:17:11 - 
-Mon, 06/05/2019 15:17:11 - Genie Search API
-Mon, 06/05/2019 15:17:11 - 
-Mon, 06/05/2019 15:17:11 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:17:11 - 
-Mon, 06/05/2019 15:17:11 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:17:11 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:17:11 - database-user = root
-Mon, 06/05/2019 15:17:11 - database-password = ***
-Mon, 06/05/2019 15:17:11 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:17:11 - 
-Mon, 06/05/2019 15:17:11 - Genie Search API
-Mon, 06/05/2019 15:17:11 - 
-Mon, 06/05/2019 15:17:13 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:17:16 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:17:16 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:17:16 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:17:16 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:17:16 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:17:28 - 
-Mon, 06/05/2019 15:17:28 - Genie Search API
-Mon, 06/05/2019 15:17:28 - 
-Mon, 06/05/2019 15:17:28 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:17:28 - 
-Mon, 06/05/2019 15:17:28 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:17:28 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:17:28 - database-user = root
-Mon, 06/05/2019 15:17:28 - database-password = ***
-Mon, 06/05/2019 15:17:28 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:17:28 - 
-Mon, 06/05/2019 15:17:28 - Genie Search API
-Mon, 06/05/2019 15:17:28 - 
-Mon, 06/05/2019 15:17:29 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:17:44 - 
-Mon, 06/05/2019 15:17:44 - Genie Search API
-Mon, 06/05/2019 15:17:44 - 
-Mon, 06/05/2019 15:17:44 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:17:44 - 
-Mon, 06/05/2019 15:17:44 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:17:44 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:17:44 - database-user = root
-Mon, 06/05/2019 15:17:44 - database-password = ***
-Mon, 06/05/2019 15:17:44 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:17:44 - 
-Mon, 06/05/2019 15:17:44 - Genie Search API
-Mon, 06/05/2019 15:17:44 - 
-Mon, 06/05/2019 15:17:45 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:17:47 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:17:49 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:17:49 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:17:49 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:17:49 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:17:49 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:20:09 - 
-Mon, 06/05/2019 15:20:09 - Genie Search API
-Mon, 06/05/2019 15:20:09 - 
-Mon, 06/05/2019 15:20:09 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:20:09 - 
-Mon, 06/05/2019 15:20:09 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:20:09 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:20:09 - database-user = root
-Mon, 06/05/2019 15:20:09 - database-password = ***
-Mon, 06/05/2019 15:20:09 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:20:09 - 
-Mon, 06/05/2019 15:20:09 - Genie Search API
-Mon, 06/05/2019 15:20:09 - 
-Mon, 06/05/2019 15:20:46 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:20:57 - Entity_id: 150781 Getting source code...
-Mon, 06/05/2019 15:21:00 - Entity_id: 48566 Getting source code...
-Mon, 06/05/2019 15:21:01 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 15:21:02 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 15:21:03 - Entity_id: 28712 Slicing...
-Mon, 06/05/2019 15:21:03 - Entity_id: 28712 Generating compiled jar...
-Mon, 06/05/2019 15:21:03 - Entity_id: 28712 Slicing...
-Mon, 06/05/2019 15:21:06 - Entity_id: 28773 Getting source code...
-Mon, 06/05/2019 15:21:07 - Entity_id: 49016 Getting source code...
-Mon, 06/05/2019 15:21:08 - Entity_id: 49016 Slicing...
-Mon, 06/05/2019 15:21:08 - Entity_id: 49016 Generating compiled jar...
-Mon, 06/05/2019 15:21:08 - Entity_id: 49016 Slicing...
-Mon, 06/05/2019 15:21:09 - Entity_id: 54019 Getting source code...
-Mon, 06/05/2019 15:21:10 - Entity_id: 68711 Getting source code...
-Mon, 06/05/2019 15:21:11 - Entity_id: 68711 Slicing...
-Mon, 06/05/2019 15:21:11 - Entity_id: 68711 Generating compiled jar...
-Mon, 06/05/2019 15:21:11 - Entity_id: 68711 Slicing...
-Mon, 06/05/2019 15:21:13 - Entity_id: 89976 Getting source code...
-Mon, 06/05/2019 15:21:30 - Entity_id: 92653 Getting source code...
-Mon, 06/05/2019 15:21:31 - Entity_id: 188333 Getting source code...
-Mon, 06/05/2019 15:23:15 - 
-Mon, 06/05/2019 15:23:15 - Genie Search API
-Mon, 06/05/2019 15:23:15 - 
-Mon, 06/05/2019 15:23:15 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:23:15 - 
-Mon, 06/05/2019 15:23:15 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:23:15 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:23:15 - database-user = root
-Mon, 06/05/2019 15:23:15 - database-password = ***
-Mon, 06/05/2019 15:23:15 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:23:15 - 
-Mon, 06/05/2019 15:23:15 - Genie Search API
-Mon, 06/05/2019 15:23:15 - 
-Mon, 06/05/2019 15:23:36 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:23:48 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:23:48 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:23:48 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:23:48 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:23:48 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:27:28 - 
-Mon, 06/05/2019 15:27:28 - Genie Search API
-Mon, 06/05/2019 15:27:28 - 
-Mon, 06/05/2019 15:27:28 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:27:28 - 
-Mon, 06/05/2019 15:27:28 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:27:28 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:27:28 - database-user = root
-Mon, 06/05/2019 15:27:28 - database-password = ***
-Mon, 06/05/2019 15:27:28 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:27:28 - 
-Mon, 06/05/2019 15:27:28 - Genie Search API
-Mon, 06/05/2019 15:27:28 - 
-Mon, 06/05/2019 15:27:37 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:27:39 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:27:39 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:27:39 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:27:39 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:27:39 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:27:48 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:27:49 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:27:49 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:27:49 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:27:49 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:27:49 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:28:10 - Entity_id: 150781 Getting source code...
-Mon, 06/05/2019 15:28:12 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:28:14 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:28:14 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:28:14 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:28:14 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:28:14 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:28:48 - 
-Mon, 06/05/2019 15:28:48 - Genie Search API
-Mon, 06/05/2019 15:28:48 - 
-Mon, 06/05/2019 15:28:48 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:28:48 - 
-Mon, 06/05/2019 15:28:48 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:28:48 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:28:48 - database-user = root
-Mon, 06/05/2019 15:28:48 - database-password = ***
-Mon, 06/05/2019 15:28:48 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:28:48 - 
-Mon, 06/05/2019 15:28:48 - Genie Search API
-Mon, 06/05/2019 15:28:48 - 
-Mon, 06/05/2019 15:28:52 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:28:54 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:28:54 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:28:54 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:28:54 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:28:54 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:28:57 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:28:58 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:28:58 - Entity_id: 869186 Generating compiled jar...
-Mon, 06/05/2019 15:28:58 - Entity_id: 869186 Slicing...
-Mon, 06/05/2019 15:28:58 - Entity_id: 869186 Extracting sliced zip file...
-Mon, 06/05/2019 15:28:58 - Entity_id: 869186 Generating Build.xml...
-Mon, 06/05/2019 15:30:57 - 
-Mon, 06/05/2019 15:30:57 - Genie Search API
-Mon, 06/05/2019 15:30:57 - 
-Mon, 06/05/2019 15:30:57 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:30:57 - 
-Mon, 06/05/2019 15:30:57 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:30:57 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:30:57 - database-user = root
-Mon, 06/05/2019 15:30:57 - database-password = ***
-Mon, 06/05/2019 15:30:57 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:30:57 - 
-Mon, 06/05/2019 15:30:57 - Genie Search API
-Mon, 06/05/2019 15:30:57 - 
-Mon, 06/05/2019 15:30:59 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:31:06 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:31:20 - Entity_id: 150781 Getting source code...
-Mon, 06/05/2019 15:31:22 - Entity_id: 119753 Getting source code...
-Mon, 06/05/2019 15:31:23 - Entity_id: 28712 Getting source code...
-Mon, 06/05/2019 15:31:23 - Entity_id: 29505 Getting source code...
-Mon, 06/05/2019 15:31:24 - Entity_id: 68711 Getting source code...
-Mon, 06/05/2019 15:31:25 - Entity_id: 49016 Getting source code...
-Mon, 06/05/2019 15:31:26 - Entity_id: 68711 Getting source code...
-Mon, 06/05/2019 15:31:26 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 15:31:26 - Entity_id: 28648 Getting source code...
-Mon, 06/05/2019 15:31:27 - Entity_id: 48566 Getting source code...
-Mon, 06/05/2019 15:31:28 - Entity_id: 29500 Getting source code...
-Mon, 06/05/2019 15:31:28 - Entity_id: 68711 Getting source code...
-Mon, 06/05/2019 15:31:30 - Entity_id: 869186 Getting source code...
-Mon, 06/05/2019 15:35:49 - 
-Mon, 06/05/2019 15:35:49 - Genie Search API
-Mon, 06/05/2019 15:35:49 - 
-Mon, 06/05/2019 15:35:49 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Mon, 06/05/2019 15:35:49 - 
-Mon, 06/05/2019 15:35:49 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Mon, 06/05/2019 15:35:49 - database-url = jdbc:mysql://localhost:3306/test_repo
-Mon, 06/05/2019 15:35:49 - database-user = root
-Mon, 06/05/2019 15:35:49 - database-password = ***
-Mon, 06/05/2019 15:35:49 - webserver-url = http://localhost:8080
-Mon, 06/05/2019 15:35:49 - 
-Mon, 06/05/2019 15:35:49 - Genie Search API
-Mon, 06/05/2019 15:35:49 - 
+Tue, 07/05/2019 08:45:35 - 
+Tue, 07/05/2019 08:45:35 - Genie Search API
+Tue, 07/05/2019 08:45:35 - 
+Tue, 07/05/2019 08:45:35 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 08:45:35 - 
+Tue, 07/05/2019 08:45:35 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 08:45:35 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 08:45:35 - database-user = root
+Tue, 07/05/2019 08:45:35 - database-password = ***
+Tue, 07/05/2019 08:45:35 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 08:45:35 - 
+Tue, 07/05/2019 08:45:35 - Genie Search API
+Tue, 07/05/2019 08:45:35 - 
+Tue, 07/05/2019 08:45:42 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 08:45:42 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 08:45:42 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 08:45:43 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 08:46:57 - 
+Tue, 07/05/2019 08:46:57 - Genie Search API
+Tue, 07/05/2019 08:46:57 - 
+Tue, 07/05/2019 08:46:57 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 08:46:57 - 
+Tue, 07/05/2019 08:46:57 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 08:46:57 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 08:46:57 - database-user = root
+Tue, 07/05/2019 08:46:57 - database-password = ***
+Tue, 07/05/2019 08:46:57 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 08:46:57 - 
+Tue, 07/05/2019 08:46:57 - Genie Search API
+Tue, 07/05/2019 08:46:57 - 
+Tue, 07/05/2019 08:48:47 - 
+Tue, 07/05/2019 08:48:47 - Genie Search API
+Tue, 07/05/2019 08:48:47 - 
+Tue, 07/05/2019 08:48:47 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 08:48:47 - 
+Tue, 07/05/2019 08:48:47 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 08:48:47 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 08:48:47 - database-user = root
+Tue, 07/05/2019 08:48:47 - database-password = ***
+Tue, 07/05/2019 08:48:47 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 08:48:47 - 
+Tue, 07/05/2019 08:48:47 - Genie Search API
+Tue, 07/05/2019 08:48:47 - 
+Tue, 07/05/2019 08:48:52 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 08:50:01 - 
+Tue, 07/05/2019 08:50:01 - Genie Search API
+Tue, 07/05/2019 08:50:01 - 
+Tue, 07/05/2019 08:50:01 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 08:50:01 - 
+Tue, 07/05/2019 08:50:01 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 08:50:01 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 08:50:01 - database-user = root
+Tue, 07/05/2019 08:50:01 - database-password = ***
+Tue, 07/05/2019 08:50:01 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 08:50:01 - 
+Tue, 07/05/2019 08:50:01 - Genie Search API
+Tue, 07/05/2019 08:50:01 - 
+Tue, 07/05/2019 08:50:02 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 08:55:34 - 
+Tue, 07/05/2019 08:55:34 - Genie Search API
+Tue, 07/05/2019 08:55:34 - 
+Tue, 07/05/2019 08:55:34 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 08:55:34 - 
+Tue, 07/05/2019 08:55:34 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 08:55:34 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 08:55:34 - database-user = root
+Tue, 07/05/2019 08:55:34 - database-password = ***
+Tue, 07/05/2019 08:55:34 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 08:55:34 - 
+Tue, 07/05/2019 08:55:34 - Genie Search API
+Tue, 07/05/2019 08:55:34 - 
+Tue, 07/05/2019 08:55:36 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 08:56:45 - 
+Tue, 07/05/2019 08:56:45 - Genie Search API
+Tue, 07/05/2019 08:56:45 - 
+Tue, 07/05/2019 08:56:45 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 08:56:45 - 
+Tue, 07/05/2019 08:56:45 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 08:56:45 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 08:56:45 - database-user = root
+Tue, 07/05/2019 08:56:45 - database-password = ***
+Tue, 07/05/2019 08:56:45 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 08:56:45 - 
+Tue, 07/05/2019 08:56:45 - Genie Search API
+Tue, 07/05/2019 08:56:45 - 
+Tue, 07/05/2019 08:56:54 - 
+Tue, 07/05/2019 08:56:54 - Genie Search API
+Tue, 07/05/2019 08:56:54 - 
+Tue, 07/05/2019 08:56:54 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 08:56:54 - 
+Tue, 07/05/2019 08:56:54 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 08:56:54 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 08:56:54 - database-user = root
+Tue, 07/05/2019 08:56:54 - database-password = ***
+Tue, 07/05/2019 08:56:54 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 08:56:54 - 
+Tue, 07/05/2019 08:56:54 - Genie Search API
+Tue, 07/05/2019 08:56:54 - 
+Tue, 07/05/2019 09:00:40 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:01:53 - 
+Tue, 07/05/2019 09:01:53 - Genie Search API
+Tue, 07/05/2019 09:01:53 - 
+Tue, 07/05/2019 09:01:53 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:01:53 - 
+Tue, 07/05/2019 09:01:53 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:01:53 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:01:53 - database-user = root
+Tue, 07/05/2019 09:01:53 - database-password = ***
+Tue, 07/05/2019 09:01:53 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:01:53 - 
+Tue, 07/05/2019 09:01:53 - Genie Search API
+Tue, 07/05/2019 09:01:53 - 
+Tue, 07/05/2019 09:02:32 - 
+Tue, 07/05/2019 09:02:32 - Genie Search API
+Tue, 07/05/2019 09:02:32 - 
+Tue, 07/05/2019 09:02:32 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:02:32 - 
+Tue, 07/05/2019 09:02:32 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:02:32 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:02:32 - database-user = root
+Tue, 07/05/2019 09:02:32 - database-password = ***
+Tue, 07/05/2019 09:02:32 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:02:32 - 
+Tue, 07/05/2019 09:02:32 - Genie Search API
+Tue, 07/05/2019 09:02:32 - 
+Tue, 07/05/2019 09:02:34 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:02:59 - 
+Tue, 07/05/2019 09:02:59 - Genie Search API
+Tue, 07/05/2019 09:02:59 - 
+Tue, 07/05/2019 09:02:59 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:02:59 - 
+Tue, 07/05/2019 09:02:59 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:02:59 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:02:59 - database-user = root
+Tue, 07/05/2019 09:02:59 - database-password = ***
+Tue, 07/05/2019 09:02:59 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:02:59 - 
+Tue, 07/05/2019 09:02:59 - Genie Search API
+Tue, 07/05/2019 09:02:59 - 
+Tue, 07/05/2019 09:03:00 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:03:19 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:03:59 - 
+Tue, 07/05/2019 09:03:59 - Genie Search API
+Tue, 07/05/2019 09:03:59 - 
+Tue, 07/05/2019 09:03:59 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:03:59 - 
+Tue, 07/05/2019 09:03:59 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:03:59 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:03:59 - database-user = root
+Tue, 07/05/2019 09:03:59 - database-password = ***
+Tue, 07/05/2019 09:03:59 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:03:59 - 
+Tue, 07/05/2019 09:03:59 - Genie Search API
+Tue, 07/05/2019 09:03:59 - 
+Tue, 07/05/2019 09:04:01 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:04:18 - 
+Tue, 07/05/2019 09:04:18 - Genie Search API
+Tue, 07/05/2019 09:04:18 - 
+Tue, 07/05/2019 09:04:18 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:04:18 - 
+Tue, 07/05/2019 09:04:18 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:04:18 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:04:18 - database-user = root
+Tue, 07/05/2019 09:04:18 - database-password = ***
+Tue, 07/05/2019 09:04:18 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:04:18 - 
+Tue, 07/05/2019 09:04:18 - Genie Search API
+Tue, 07/05/2019 09:04:18 - 
+Tue, 07/05/2019 09:04:20 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:04:25 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:06:06 - 
+Tue, 07/05/2019 09:06:06 - Genie Search API
+Tue, 07/05/2019 09:06:06 - 
+Tue, 07/05/2019 09:06:06 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:06:06 - 
+Tue, 07/05/2019 09:06:06 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:06:06 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:06:06 - database-user = root
+Tue, 07/05/2019 09:06:06 - database-password = ***
+Tue, 07/05/2019 09:06:06 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:06:06 - 
+Tue, 07/05/2019 09:06:06 - Genie Search API
+Tue, 07/05/2019 09:06:06 - 
+Tue, 07/05/2019 09:06:08 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:06:10 - Entity_id: 869186 Slicing...
+Tue, 07/05/2019 09:06:10 - Entity_id: 869186 Generating compiled jar...
+Tue, 07/05/2019 09:06:10 - Entity_id: 869186 Slicing...
+Tue, 07/05/2019 09:06:10 - Entity_id: 869186 Extracting sliced zip file...
+Tue, 07/05/2019 09:06:11 - Entity_id: 869186 Generating Build.xml...
+Tue, 07/05/2019 09:07:49 - 
+Tue, 07/05/2019 09:07:49 - Genie Search API
+Tue, 07/05/2019 09:07:49 - 
+Tue, 07/05/2019 09:07:49 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:07:49 - 
+Tue, 07/05/2019 09:07:49 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:07:49 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:07:49 - database-user = root
+Tue, 07/05/2019 09:07:49 - database-password = ***
+Tue, 07/05/2019 09:07:49 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:07:49 - 
+Tue, 07/05/2019 09:07:49 - Genie Search API
+Tue, 07/05/2019 09:07:49 - 
+Tue, 07/05/2019 09:07:50 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:07:50 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:07:55 - Entity_id: 869186 Slicing...
+Tue, 07/05/2019 09:07:55 - Entity_id: 869186 Generating compiled jar...
+Tue, 07/05/2019 09:07:55 - Entity_id: 869186 Slicing...
+Tue, 07/05/2019 09:07:55 - Entity_id: 869186 Extracting sliced zip file...
+Tue, 07/05/2019 09:07:55 - Entity_id: 869186 Generating Build.xml...
+Tue, 07/05/2019 09:12:06 - 
+Tue, 07/05/2019 09:12:06 - Genie Search API
+Tue, 07/05/2019 09:12:06 - 
+Tue, 07/05/2019 09:12:06 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:12:06 - 
+Tue, 07/05/2019 09:12:06 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:12:06 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:12:06 - database-user = root
+Tue, 07/05/2019 09:12:06 - database-password = ***
+Tue, 07/05/2019 09:12:06 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:12:06 - 
+Tue, 07/05/2019 09:12:06 - Genie Search API
+Tue, 07/05/2019 09:12:06 - 
+Tue, 07/05/2019 09:12:09 - 
+Tue, 07/05/2019 09:12:09 - Genie Search API
+Tue, 07/05/2019 09:12:09 - 
+Tue, 07/05/2019 09:12:09 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:12:09 - 
+Tue, 07/05/2019 09:12:09 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:12:09 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:12:09 - database-user = root
+Tue, 07/05/2019 09:12:09 - database-password = ***
+Tue, 07/05/2019 09:12:09 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:12:09 - 
+Tue, 07/05/2019 09:12:09 - Genie Search API
+Tue, 07/05/2019 09:12:09 - 
+Tue, 07/05/2019 09:12:31 - 
+Tue, 07/05/2019 09:12:31 - Genie Search API
+Tue, 07/05/2019 09:12:31 - 
+Tue, 07/05/2019 09:12:31 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:12:31 - 
+Tue, 07/05/2019 09:12:31 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:12:31 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:12:31 - database-user = root
+Tue, 07/05/2019 09:12:31 - database-password = ***
+Tue, 07/05/2019 09:12:31 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:12:31 - 
+Tue, 07/05/2019 09:12:31 - Genie Search API
+Tue, 07/05/2019 09:12:31 - 
+Tue, 07/05/2019 09:12:59 - 
+Tue, 07/05/2019 09:12:59 - Genie Search API
+Tue, 07/05/2019 09:12:59 - 
+Tue, 07/05/2019 09:12:59 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:12:59 - 
+Tue, 07/05/2019 09:12:59 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:12:59 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:12:59 - database-user = root
+Tue, 07/05/2019 09:12:59 - database-password = ***
+Tue, 07/05/2019 09:12:59 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:12:59 - 
+Tue, 07/05/2019 09:12:59 - Genie Search API
+Tue, 07/05/2019 09:12:59 - 
+Tue, 07/05/2019 09:13:07 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:14:51 - 
+Tue, 07/05/2019 09:14:51 - Genie Search API
+Tue, 07/05/2019 09:14:51 - 
+Tue, 07/05/2019 09:14:51 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:14:51 - 
+Tue, 07/05/2019 09:14:51 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:14:51 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:14:51 - database-user = root
+Tue, 07/05/2019 09:14:51 - database-password = ***
+Tue, 07/05/2019 09:14:51 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:14:51 - 
+Tue, 07/05/2019 09:14:51 - Genie Search API
+Tue, 07/05/2019 09:14:51 - 
+Tue, 07/05/2019 09:14:54 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:19:42 - 
+Tue, 07/05/2019 09:19:42 - Genie Search API
+Tue, 07/05/2019 09:19:42 - 
+Tue, 07/05/2019 09:19:42 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:19:42 - 
+Tue, 07/05/2019 09:19:42 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:19:42 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:19:42 - database-user = root
+Tue, 07/05/2019 09:19:42 - database-password = ***
+Tue, 07/05/2019 09:19:42 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:19:42 - 
+Tue, 07/05/2019 09:19:42 - Genie Search API
+Tue, 07/05/2019 09:19:42 - 
+Tue, 07/05/2019 09:19:45 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:20:46 - 
+Tue, 07/05/2019 09:20:46 - Genie Search API
+Tue, 07/05/2019 09:20:46 - 
+Tue, 07/05/2019 09:20:46 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:20:46 - 
+Tue, 07/05/2019 09:20:46 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:20:46 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:20:46 - database-user = root
+Tue, 07/05/2019 09:20:46 - database-password = ***
+Tue, 07/05/2019 09:20:46 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:20:46 - 
+Tue, 07/05/2019 09:20:46 - Genie Search API
+Tue, 07/05/2019 09:20:46 - 
+Tue, 07/05/2019 09:20:47 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:22:14 - 
+Tue, 07/05/2019 09:22:14 - Genie Search API
+Tue, 07/05/2019 09:22:14 - 
+Tue, 07/05/2019 09:22:14 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:22:14 - 
+Tue, 07/05/2019 09:22:14 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:22:14 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:22:14 - database-user = root
+Tue, 07/05/2019 09:22:14 - database-password = ***
+Tue, 07/05/2019 09:22:14 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:22:14 - 
+Tue, 07/05/2019 09:22:14 - Genie Search API
+Tue, 07/05/2019 09:22:14 - 
+Tue, 07/05/2019 09:22:16 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:23:25 - 
+Tue, 07/05/2019 09:23:25 - Genie Search API
+Tue, 07/05/2019 09:23:25 - 
+Tue, 07/05/2019 09:23:25 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:23:25 - 
+Tue, 07/05/2019 09:23:25 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:23:25 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:23:25 - database-user = root
+Tue, 07/05/2019 09:23:25 - database-password = ***
+Tue, 07/05/2019 09:23:25 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:23:25 - 
+Tue, 07/05/2019 09:23:25 - Genie Search API
+Tue, 07/05/2019 09:23:25 - 
+Tue, 07/05/2019 09:23:26 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:24:24 - 
+Tue, 07/05/2019 09:24:24 - Genie Search API
+Tue, 07/05/2019 09:24:24 - 
+Tue, 07/05/2019 09:24:24 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:24:24 - 
+Tue, 07/05/2019 09:24:24 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:24:24 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:24:24 - database-user = root
+Tue, 07/05/2019 09:24:24 - database-password = ***
+Tue, 07/05/2019 09:24:24 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:24:24 - 
+Tue, 07/05/2019 09:24:24 - Genie Search API
+Tue, 07/05/2019 09:24:24 - 
+Tue, 07/05/2019 09:24:25 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:30:08 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:44:29 - 
+Tue, 07/05/2019 09:44:29 - Genie Search API
+Tue, 07/05/2019 09:44:29 - 
+Tue, 07/05/2019 09:44:29 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:44:29 - 
+Tue, 07/05/2019 09:44:29 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:44:29 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:44:29 - database-user = root
+Tue, 07/05/2019 09:44:29 - database-password = ***
+Tue, 07/05/2019 09:44:29 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:44:29 - 
+Tue, 07/05/2019 09:44:29 - Genie Search API
+Tue, 07/05/2019 09:44:29 - 
+Tue, 07/05/2019 09:44:38 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:48:52 - 
+Tue, 07/05/2019 09:48:52 - Genie Search API
+Tue, 07/05/2019 09:48:52 - 
+Tue, 07/05/2019 09:48:52 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:48:52 - 
+Tue, 07/05/2019 09:48:52 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:48:52 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:48:52 - database-user = root
+Tue, 07/05/2019 09:48:52 - database-password = ***
+Tue, 07/05/2019 09:48:52 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:48:52 - 
+Tue, 07/05/2019 09:48:52 - Genie Search API
+Tue, 07/05/2019 09:48:52 - 
+Tue, 07/05/2019 09:49:44 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:53:33 - 
+Tue, 07/05/2019 09:53:33 - Genie Search API
+Tue, 07/05/2019 09:53:33 - 
+Tue, 07/05/2019 09:53:33 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:53:33 - 
+Tue, 07/05/2019 09:53:33 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:53:33 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:53:33 - database-user = root
+Tue, 07/05/2019 09:53:33 - database-password = ***
+Tue, 07/05/2019 09:53:33 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:53:33 - 
+Tue, 07/05/2019 09:53:33 - Genie Search API
+Tue, 07/05/2019 09:53:33 - 
+Tue, 07/05/2019 09:53:48 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 09:53:52 - Entity_id: 869186 Slicing...
+Tue, 07/05/2019 09:53:52 - Entity_id: 869186 Generating compiled jar...
+Tue, 07/05/2019 09:53:52 - Entity_id: 869186 Slicing...
+Tue, 07/05/2019 09:53:52 - Entity_id: 869186 Extracting sliced zip file...
+Tue, 07/05/2019 09:53:52 - Entity_id: 869186 Generating Build.xml...
+Tue, 07/05/2019 09:54:46 - 
+Tue, 07/05/2019 09:54:46 - Genie Search API
+Tue, 07/05/2019 09:54:46 - 
+Tue, 07/05/2019 09:54:46 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:54:46 - 
+Tue, 07/05/2019 09:54:46 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:54:46 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:54:46 - database-user = root
+Tue, 07/05/2019 09:54:46 - database-password = ***
+Tue, 07/05/2019 09:54:46 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:54:46 - 
+Tue, 07/05/2019 09:54:46 - Genie Search API
+Tue, 07/05/2019 09:54:46 - 
+Tue, 07/05/2019 09:56:04 - 
+Tue, 07/05/2019 09:56:04 - Genie Search API
+Tue, 07/05/2019 09:56:04 - 
+Tue, 07/05/2019 09:56:04 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 09:56:04 - 
+Tue, 07/05/2019 09:56:04 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 09:56:04 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 09:56:04 - database-user = root
+Tue, 07/05/2019 09:56:04 - database-password = ***
+Tue, 07/05/2019 09:56:04 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 09:56:04 - 
+Tue, 07/05/2019 09:56:04 - Genie Search API
+Tue, 07/05/2019 09:56:04 - 
+Tue, 07/05/2019 10:21:50 - 
+Tue, 07/05/2019 10:21:50 - Genie Search API
+Tue, 07/05/2019 10:21:50 - 
+Tue, 07/05/2019 10:21:50 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:21:50 - 
+Tue, 07/05/2019 10:21:50 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:21:50 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:21:50 - database-user = root
+Tue, 07/05/2019 10:21:50 - database-password = ***
+Tue, 07/05/2019 10:21:50 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:21:50 - 
+Tue, 07/05/2019 10:21:50 - Genie Search API
+Tue, 07/05/2019 10:21:50 - 
+Tue, 07/05/2019 10:22:38 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:23:30 - 
+Tue, 07/05/2019 10:23:30 - Genie Search API
+Tue, 07/05/2019 10:23:30 - 
+Tue, 07/05/2019 10:23:30 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:23:30 - 
+Tue, 07/05/2019 10:23:30 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:23:30 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:23:30 - database-user = root
+Tue, 07/05/2019 10:23:30 - database-password = ***
+Tue, 07/05/2019 10:23:30 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:23:30 - 
+Tue, 07/05/2019 10:23:30 - Genie Search API
+Tue, 07/05/2019 10:23:30 - 
+Tue, 07/05/2019 10:23:35 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:23:51 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:23:51 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:23:51 - With values: 300
+Tue, 07/05/2019 10:23:51 - Result = 44
+Tue, 07/05/2019 10:23:51 - 
+Tue, 07/05/2019 10:29:23 - 
+Tue, 07/05/2019 10:29:23 - Genie Search API
+Tue, 07/05/2019 10:29:23 - 
+Tue, 07/05/2019 10:29:23 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:29:23 - 
+Tue, 07/05/2019 10:29:23 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:29:23 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:29:23 - database-user = root
+Tue, 07/05/2019 10:29:23 - database-password = ***
+Tue, 07/05/2019 10:29:23 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:29:23 - 
+Tue, 07/05/2019 10:29:23 - Genie Search API
+Tue, 07/05/2019 10:29:23 - 
+Tue, 07/05/2019 10:29:29 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:29:38 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:30:37 - 
+Tue, 07/05/2019 10:30:37 - Genie Search API
+Tue, 07/05/2019 10:30:37 - 
+Tue, 07/05/2019 10:30:37 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:30:37 - 
+Tue, 07/05/2019 10:30:37 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:30:37 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:30:37 - database-user = root
+Tue, 07/05/2019 10:30:37 - database-password = ***
+Tue, 07/05/2019 10:30:37 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:30:37 - 
+Tue, 07/05/2019 10:30:37 - Genie Search API
+Tue, 07/05/2019 10:30:37 - 
+Tue, 07/05/2019 10:30:42 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:30:45 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:30:59 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:31:24 - 
+Tue, 07/05/2019 10:31:24 - Genie Search API
+Tue, 07/05/2019 10:31:24 - 
+Tue, 07/05/2019 10:31:24 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:31:24 - 
+Tue, 07/05/2019 10:31:24 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:31:24 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:31:24 - database-user = root
+Tue, 07/05/2019 10:31:24 - database-password = ***
+Tue, 07/05/2019 10:31:24 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:31:24 - 
+Tue, 07/05/2019 10:31:24 - Genie Search API
+Tue, 07/05/2019 10:31:24 - 
+Tue, 07/05/2019 10:31:29 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:31:33 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:31:55 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:31:55 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:31:55 - With values: 20
+Tue, 07/05/2019 10:31:55 - Result = 20
+Tue, 07/05/2019 10:31:55 - 
+Tue, 07/05/2019 10:38:43 - 
+Tue, 07/05/2019 10:38:43 - Genie Search API
+Tue, 07/05/2019 10:38:43 - 
+Tue, 07/05/2019 10:38:43 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:38:43 - 
+Tue, 07/05/2019 10:38:43 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:38:43 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:38:43 - database-user = root
+Tue, 07/05/2019 10:38:43 - database-password = ***
+Tue, 07/05/2019 10:38:43 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:38:43 - 
+Tue, 07/05/2019 10:38:43 - Genie Search API
+Tue, 07/05/2019 10:38:43 - 
+Tue, 07/05/2019 10:38:52 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:38:57 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:39:34 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:39:42 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:39:58 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:40:13 - 
+Tue, 07/05/2019 10:40:13 - Genie Search API
+Tue, 07/05/2019 10:40:13 - 
+Tue, 07/05/2019 10:40:13 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:40:13 - 
+Tue, 07/05/2019 10:40:13 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:40:13 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:40:13 - database-user = root
+Tue, 07/05/2019 10:40:13 - database-password = ***
+Tue, 07/05/2019 10:40:13 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:40:13 - 
+Tue, 07/05/2019 10:40:13 - Genie Search API
+Tue, 07/05/2019 10:40:13 - 
+Tue, 07/05/2019 10:40:20 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:40:25 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:42:05 - 
+Tue, 07/05/2019 10:42:05 - Genie Search API
+Tue, 07/05/2019 10:42:05 - 
+Tue, 07/05/2019 10:42:05 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:42:05 - 
+Tue, 07/05/2019 10:42:05 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:42:05 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:42:05 - database-user = root
+Tue, 07/05/2019 10:42:05 - database-password = ***
+Tue, 07/05/2019 10:42:05 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:42:05 - 
+Tue, 07/05/2019 10:42:05 - Genie Search API
+Tue, 07/05/2019 10:42:05 - 
+Tue, 07/05/2019 10:42:09 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:42:13 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:42:38 - 
+Tue, 07/05/2019 10:42:38 - Genie Search API
+Tue, 07/05/2019 10:42:38 - 
+Tue, 07/05/2019 10:42:38 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:42:38 - 
+Tue, 07/05/2019 10:42:38 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:42:38 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:42:38 - database-user = root
+Tue, 07/05/2019 10:42:38 - database-password = ***
+Tue, 07/05/2019 10:42:38 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:42:38 - 
+Tue, 07/05/2019 10:42:38 - Genie Search API
+Tue, 07/05/2019 10:42:38 - 
+Tue, 07/05/2019 10:44:20 - 
+Tue, 07/05/2019 10:44:20 - Genie Search API
+Tue, 07/05/2019 10:44:20 - 
+Tue, 07/05/2019 10:44:20 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:44:20 - 
+Tue, 07/05/2019 10:44:20 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:44:20 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:44:20 - database-user = root
+Tue, 07/05/2019 10:44:20 - database-password = ***
+Tue, 07/05/2019 10:44:20 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:44:20 - 
+Tue, 07/05/2019 10:44:20 - Genie Search API
+Tue, 07/05/2019 10:44:20 - 
+Tue, 07/05/2019 10:44:26 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:44:31 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:44:33 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:44:36 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:44:39 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:44:39 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:44:39 - With values: 300
+Tue, 07/05/2019 10:44:39 - Result = 44
+Tue, 07/05/2019 10:44:39 - 
+Tue, 07/05/2019 10:53:49 - 
+Tue, 07/05/2019 10:53:49 - Genie Search API
+Tue, 07/05/2019 10:53:49 - 
+Tue, 07/05/2019 10:53:49 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:53:49 - 
+Tue, 07/05/2019 10:53:49 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:53:49 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:53:49 - database-user = root
+Tue, 07/05/2019 10:53:49 - database-password = ***
+Tue, 07/05/2019 10:53:49 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:53:49 - 
+Tue, 07/05/2019 10:53:49 - Genie Search API
+Tue, 07/05/2019 10:53:49 - 
+Tue, 07/05/2019 10:53:55 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:54:56 - 
+Tue, 07/05/2019 10:54:56 - Genie Search API
+Tue, 07/05/2019 10:54:56 - 
+Tue, 07/05/2019 10:54:56 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:54:56 - 
+Tue, 07/05/2019 10:54:56 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:54:56 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:54:56 - database-user = root
+Tue, 07/05/2019 10:54:56 - database-password = ***
+Tue, 07/05/2019 10:54:56 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:54:56 - 
+Tue, 07/05/2019 10:54:56 - Genie Search API
+Tue, 07/05/2019 10:54:56 - 
+Tue, 07/05/2019 10:55:00 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:55:09 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:55:47 - 
+Tue, 07/05/2019 10:55:47 - Genie Search API
+Tue, 07/05/2019 10:55:47 - 
+Tue, 07/05/2019 10:55:47 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:55:47 - 
+Tue, 07/05/2019 10:55:47 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:55:47 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:55:47 - database-user = root
+Tue, 07/05/2019 10:55:47 - database-password = ***
+Tue, 07/05/2019 10:55:47 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:55:47 - 
+Tue, 07/05/2019 10:55:47 - Genie Search API
+Tue, 07/05/2019 10:55:47 - 
+Tue, 07/05/2019 10:55:52 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:55:59 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:56:33 - 
+Tue, 07/05/2019 10:56:33 - Genie Search API
+Tue, 07/05/2019 10:56:33 - 
+Tue, 07/05/2019 10:56:33 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:56:33 - 
+Tue, 07/05/2019 10:56:33 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:56:33 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:56:33 - database-user = root
+Tue, 07/05/2019 10:56:33 - database-password = ***
+Tue, 07/05/2019 10:56:33 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:56:33 - 
+Tue, 07/05/2019 10:56:33 - Genie Search API
+Tue, 07/05/2019 10:56:33 - 
+Tue, 07/05/2019 10:56:38 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:56:43 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:57:15 - 
+Tue, 07/05/2019 10:57:15 - Genie Search API
+Tue, 07/05/2019 10:57:15 - 
+Tue, 07/05/2019 10:57:15 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:57:15 - 
+Tue, 07/05/2019 10:57:15 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:57:15 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:57:15 - database-user = root
+Tue, 07/05/2019 10:57:15 - database-password = ***
+Tue, 07/05/2019 10:57:15 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:57:15 - 
+Tue, 07/05/2019 10:57:15 - Genie Search API
+Tue, 07/05/2019 10:57:15 - 
+Tue, 07/05/2019 10:57:21 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:57:23 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:57:41 - 
+Tue, 07/05/2019 10:57:41 - Genie Search API
+Tue, 07/05/2019 10:57:41 - 
+Tue, 07/05/2019 10:57:41 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:57:41 - 
+Tue, 07/05/2019 10:57:41 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:57:41 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:57:41 - database-user = root
+Tue, 07/05/2019 10:57:41 - database-password = ***
+Tue, 07/05/2019 10:57:41 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:57:41 - 
+Tue, 07/05/2019 10:57:41 - Genie Search API
+Tue, 07/05/2019 10:57:41 - 
+Tue, 07/05/2019 10:57:45 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:57:51 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:58:09 - 
+Tue, 07/05/2019 10:58:09 - Genie Search API
+Tue, 07/05/2019 10:58:09 - 
+Tue, 07/05/2019 10:58:09 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:58:09 - 
+Tue, 07/05/2019 10:58:09 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:58:09 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:58:09 - database-user = root
+Tue, 07/05/2019 10:58:09 - database-password = ***
+Tue, 07/05/2019 10:58:09 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:58:09 - 
+Tue, 07/05/2019 10:58:09 - Genie Search API
+Tue, 07/05/2019 10:58:09 - 
+Tue, 07/05/2019 10:58:13 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:58:19 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:58:49 - 
+Tue, 07/05/2019 10:58:49 - Genie Search API
+Tue, 07/05/2019 10:58:49 - 
+Tue, 07/05/2019 10:58:49 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 10:58:49 - 
+Tue, 07/05/2019 10:58:49 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 10:58:49 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 10:58:49 - database-user = root
+Tue, 07/05/2019 10:58:49 - database-password = ***
+Tue, 07/05/2019 10:58:49 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 10:58:49 - 
+Tue, 07/05/2019 10:58:49 - Genie Search API
+Tue, 07/05/2019 10:58:49 - 
+Tue, 07/05/2019 10:58:55 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 10:59:02 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:02 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:02 - With values: 22
+Tue, 07/05/2019 10:59:02 - Result = 22
+Tue, 07/05/2019 10:59:02 - 
+Tue, 07/05/2019 10:59:06 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:06 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:06 - With values: 22
+Tue, 07/05/2019 10:59:06 - Result = 22
+Tue, 07/05/2019 10:59:06 - 
+Tue, 07/05/2019 10:59:09 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:09 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:09 - With values: 22
+Tue, 07/05/2019 10:59:09 - Result = 22
+Tue, 07/05/2019 10:59:09 - 
+Tue, 07/05/2019 10:59:13 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:13 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:13 - With values: 300
+Tue, 07/05/2019 10:59:13 - Result = 44
+Tue, 07/05/2019 10:59:13 - 
+Tue, 07/05/2019 10:59:17 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:17 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:17 - With values: 10
+Tue, 07/05/2019 10:59:17 - Result = 10
+Tue, 07/05/2019 10:59:17 - 
+Tue, 07/05/2019 10:59:25 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:25 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:25 - With values: 17
+Tue, 07/05/2019 10:59:25 - Result = 17
+Tue, 07/05/2019 10:59:25 - 
+Tue, 07/05/2019 10:59:31 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:31 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:31 - With values: 400
+Tue, 07/05/2019 10:59:49 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:49 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:49 - With values: 20
+Tue, 07/05/2019 10:59:49 - Result = 20
+Tue, 07/05/2019 10:59:49 - 
+Tue, 07/05/2019 10:59:51 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:51 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:51 - With values: 300
+Tue, 07/05/2019 10:59:51 - Result = 44
+Tue, 07/05/2019 10:59:51 - 
+Tue, 07/05/2019 10:59:54 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 10:59:54 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 10:59:54 - With values: 500
+Tue, 07/05/2019 11:00:46 - Entity_id: 869186 Executing method...
+Tue, 07/05/2019 11:00:46 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Tue, 07/05/2019 11:00:46 - With values: 300
+Tue, 07/05/2019 11:00:46 - Result = 44
+Tue, 07/05/2019 11:00:46 - 
+Tue, 07/05/2019 11:02:30 - 
+Tue, 07/05/2019 11:02:30 - Genie Search API
+Tue, 07/05/2019 11:02:30 - 
+Tue, 07/05/2019 11:02:30 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 11:02:30 - 
+Tue, 07/05/2019 11:02:30 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 11:02:30 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 11:02:30 - database-user = root
+Tue, 07/05/2019 11:02:30 - database-password = ***
+Tue, 07/05/2019 11:02:30 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 11:02:30 - 
+Tue, 07/05/2019 11:02:30 - Genie Search API
+Tue, 07/05/2019 11:02:30 - 
+Tue, 07/05/2019 11:03:26 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 11:03:46 - 
+Tue, 07/05/2019 11:03:46 - Genie Search API
+Tue, 07/05/2019 11:03:46 - 
+Tue, 07/05/2019 11:03:46 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 11:03:46 - 
+Tue, 07/05/2019 11:03:46 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 11:03:46 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 11:03:46 - database-user = root
+Tue, 07/05/2019 11:03:46 - database-password = ***
+Tue, 07/05/2019 11:03:46 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 11:03:46 - 
+Tue, 07/05/2019 11:03:46 - Genie Search API
+Tue, 07/05/2019 11:03:46 - 
+Tue, 07/05/2019 11:04:19 - 
+Tue, 07/05/2019 11:04:19 - Genie Search API
+Tue, 07/05/2019 11:04:19 - 
+Tue, 07/05/2019 11:04:19 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 11:04:19 - 
+Tue, 07/05/2019 11:04:19 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 11:04:19 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 11:04:19 - database-user = root
+Tue, 07/05/2019 11:04:19 - database-password = ***
+Tue, 07/05/2019 11:04:19 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 11:04:19 - 
+Tue, 07/05/2019 11:04:19 - Genie Search API
+Tue, 07/05/2019 11:04:19 - 
+Tue, 07/05/2019 11:05:23 - Entity_id: 869186 Getting source code...
+Tue, 07/05/2019 11:10:21 - 
+Tue, 07/05/2019 11:10:21 - Genie Search API
+Tue, 07/05/2019 11:10:21 - 
+Tue, 07/05/2019 11:10:21 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Tue, 07/05/2019 11:10:21 - 
+Tue, 07/05/2019 11:10:21 - input-repo = D:\Sourcerer_portable\repositories\test_repo
+Tue, 07/05/2019 11:10:21 - database-url = jdbc:mysql://localhost:3306/test_repo
+Tue, 07/05/2019 11:10:21 - database-user = root
+Tue, 07/05/2019 11:10:21 - database-password = ***
+Tue, 07/05/2019 11:10:21 - webserver-url = http://localhost:8080
+Tue, 07/05/2019 11:10:21 - 
+Tue, 07/05/2019 11:10:21 - Genie Search API
+Tue, 07/05/2019 11:10:21 - 

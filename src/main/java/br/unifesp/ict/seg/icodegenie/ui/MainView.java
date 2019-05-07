@@ -48,7 +48,8 @@ public class MainView extends VerticalLayout {
 	private MethodDetailView methodDetailView = new MethodDetailView(this);
 	private StatusView statusView = new StatusView(this);
 
-	private TextField searchField = new TextField();
+	// TODO remover id fixo
+	private TextField searchField = new TextField("", "869186", "Methods search...");
 	private Button searchHelpButton = new Button(new Icon(VaadinIcon.QUESTION_CIRCLE_O));
 	private Button repoStatusButton = new Button(new Icon(VaadinIcon.PLUG));
 
@@ -75,17 +76,6 @@ public class MainView extends VerticalLayout {
 		buildLayout();
 		configureComponents();
 		hookLogicToComponents();
-
-		// TODO remover depois de implementar a tela
-		try {
-			SearchResult result = null;
-			result = this.getSourcererQueryBuilder().search(869186L);
-			System.out.println(result.getNumFound());
-			SingleResult singleResult = result.getResults(0, 1).get(0);
-			methodDetailView.enter(new Method(singleResult));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 
 	private void buildLayout() {
@@ -142,7 +132,7 @@ public class MainView extends VerticalLayout {
 		sourcererQueryButton.addClickListener(e -> showSourcererQuery());
 		searchButton.addClickListener(e -> search());
 		newSearchButton.addClickListener(e -> newSearch());
-		sourcererResultGrid.asSingleSelect().addValueChangeListener(e -> methodDetailView.enter(sourcererResultGrid.asSingleSelect().getValue()));
+		sourcererResultGrid.asSingleSelect().addValueChangeListener(e -> this.showMethodDetails(sourcererResultGrid.asSingleSelect().getValue()));
 	}
 
 	private void updateComponentsVisibility(boolean inputPhase) {
@@ -339,8 +329,14 @@ public class MainView extends VerticalLayout {
 	}
 
 	private void showStatus() {
+		methodDetailView.setVisible(false);
 		statusView.enter();
 		this.updateStatusLayout();
+	}
+
+	private void showMethodDetails(Method method) {
+		statusView.setVisible(false);
+		methodDetailView.enter(method);
 	}
 
 	private SourcererQueryBuilder getSourcererQueryBuilder() {

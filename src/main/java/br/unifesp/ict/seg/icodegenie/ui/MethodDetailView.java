@@ -7,22 +7,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
+import org.vaadin.olli.ClipboardHelper;
 
 import com.github.appreciated.prism.element.Language;
 import com.github.appreciated.prism.element.PrismHighlighter;
 import com.vaadin.flow.component.Component;
+import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.details.Details;
 import com.vaadin.flow.component.html.Anchor;
 import com.vaadin.flow.component.html.Paragraph;
 import com.vaadin.flow.component.html.Span;
+import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.server.StreamResource;
 
 import br.unifesp.ict.seg.geniesearchapi.domain.GenieMethod;
 import br.unifesp.ict.seg.geniesearchapi.infrastructure.GenieMethodRepository;
 import br.unifesp.ict.seg.icodegenie.model.Method;
-
-//FIXME 0 MethodDetailView: implementar
 
 public class MethodDetailView extends VerticalLayout {
 
@@ -35,6 +38,7 @@ public class MethodDetailView extends VerticalLayout {
 
 	private Method currentMethod;
 
+	private Button back = new Button(VaadinIcon.ARROW_BACKWARD.create());
 	private Details methodHeader = new Details(new Span("Method"), null);
 	private Details downloadHeader = new Details(new Span("Downloads"), null);
 	private Details sourceHeader = new Details("Source Code", null);
@@ -42,6 +46,9 @@ public class MethodDetailView extends VerticalLayout {
 
 	private Anchor sliceLink = new Anchor();
 	private Anchor compiledJarLink = new Anchor();
+
+	private TextField executeParamsValues = new TextField("", "param values");
+	private Button executeRun = new Button(VaadinIcon.PLAY_CIRCLE_O.create());
 
 	private String okColor = "hsl(214, 90%, 52%)";
 
@@ -57,10 +64,12 @@ public class MethodDetailView extends VerticalLayout {
 
 	private void buildLayout() {
 
-		add(methodHeader, downloadHeader, sourceHeader, execHeader);
+		add(back, methodHeader, downloadHeader, sourceHeader, execHeader);
 	}
 
 	private void configureComponents() {
+
+		back.setWidthFull();
 
 		methodHeader.getSummary().getElement().getStyle().set("color", okColor);
 		downloadHeader.getSummary().getElement().getStyle().set("color", okColor);
@@ -71,10 +80,18 @@ public class MethodDetailView extends VerticalLayout {
 		downloadHeader.setOpened(false);
 		sourceHeader.setOpened(true);
 		execHeader.setOpened(true);
-}
+		
+		executeParamsValues.setWidthFull();
+	}
 
 	private void hookLogicToComponents() {
+		back.addClickListener(e -> {
+			this.setVisible(false);
+		});
 		downloadHeader.addOpenedChangeListener(e -> this.loadDownloadContent());
+		executeRun.addClickListener(e -> {
+			this.executeMethod();
+		});
 	}
 
 	private void loadContent() {
@@ -85,7 +102,7 @@ public class MethodDetailView extends VerticalLayout {
 		downloadHeader.setVisible(genieMethod.isCrawled());
 		sourceHeader.setVisible(genieMethod.isCrawled());
 		execHeader.setVisible(genieMethod.isAllowsExecution());
-		
+
 		this.loadMethodContent();
 		this.loadSourceContent();
 		this.loadExecContent();
@@ -143,7 +160,7 @@ public class MethodDetailView extends VerticalLayout {
 		methodHeader.addContent(this.getDetailsLine("Project id", currentMethod.getGenieMethod().getProjectId() + ""));
 		methodHeader.addContent(this.getDetailsLine("Project name", currentMethod.getGenieMethod().getProjectName()));
 		methodHeader.addContent(this.getDetailsLine("Project yype", currentMethod.getGenieMethod().getProjectType()));
-}
+	}
 
 	public StreamResource getStreamResource(Path path) {
 		return new StreamResource(path.getFileName() + "", () -> {
@@ -167,20 +184,20 @@ public class MethodDetailView extends VerticalLayout {
 
 		// Slice
 		sliceLink.setHref(this.getStreamResource(genieMethod.getSlicedFilePath()));
-		sliceLink.setText(genieMethod.getSlicedFilePath().getFileName() + "");
+		sliceLink.setText("📥 Slice: " + genieMethod.getSlicedFilePath().getFileName() + "");
 		try {
 			if (genieMethod.slice())
-				downloadHeader.addContent(new Span("Slice: "), sliceLink);
+				downloadHeader.addContent(sliceLink);
 		} catch (Exception e) {
 		}
 
 		// Jar file
 		compiledJarLink.setHref(this.getStreamResource(genieMethod.getCompiledJarPath()));
-		compiledJarLink.setText(genieMethod.getCompiledJarPath().getFileName() + "");
+		compiledJarLink.setText("📥 Compiled Jar: " + genieMethod.getCompiledJarPath().getFileName() + "");
 		try {
 			if (genieMethod.generateJar()) {
 				downloadHeader.addContent(new Paragraph(""));
-				downloadHeader.addContent(new Span("Compiled Jar: "), compiledJarLink);
+				downloadHeader.addContent(compiledJarLink);
 			}
 		} catch (Exception e) {
 		}
@@ -188,18 +205,40 @@ public class MethodDetailView extends VerticalLayout {
 
 	private void loadSourceContent() {
 		sourceHeader.setContent(null);
+
 		String sourceCode = currentMethod.getGenieMethod().getSourceCode();
+
+		Button copyButton = new Button("COPY </>");
+		copyButton.addThemeVariants(ButtonVariant.LUMO_SMALL, ButtonVariant.LUMO_CONTRAST);
+		ClipboardHelper clipboardHelper = new ClipboardHelper(sourceCode, copyButton);
+		add(clipboardHelper);
+		sourceHeader.addContent(clipboardHelper);
+
 		PrismHighlighter sourceCodeComponent = new PrismHighlighter(sourceCode, Language.java);
 		sourceHeader.addContent(sourceCodeComponent);
 
 	}
 
 	private void loadExecContent() {
-
-		if(!currentMethod.getGenieMethod().isAllowsExecution())
-			return;
+		execHeader.setContent(null);
 		
-		// FIXME Implementar daqui pra baixo...
+		if (!currentMethod.getGenieMethod().isAllowsExecution())
+			return;
+
+		execHeader.addContent(executeParamsValues);
+		execHeader.addContent(new Paragraph(""));
+		execHeader.addContent(executeRun);
+	}
+
+	private void executeMethod() {
+		this.loadExecContent();
+		try {
+			Object result = currentMethod.getGenieMethod().execute(executeParamsValues.getValue());
+			execHeader.addContent(this.getDetailsLine("Result", result + ""));
+		} catch (Exception e) {
+			PrismHighlighter exceptionComponent = new PrismHighlighter(e.getClass().getName() + ": " + e.getMessage(), Language.java);
+			execHeader.addContent(exceptionComponent);
+		}
 	}
 
 	public void enter(Method method) {
