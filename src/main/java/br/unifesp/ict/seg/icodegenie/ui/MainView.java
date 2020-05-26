@@ -49,7 +49,7 @@ public class MainView extends VerticalLayout {
 	private StatusView statusView = new StatusView(this);
 
 	// TODO remover id fixo
-	private TextField searchField = new TextField("", "869186", "Methods search...");
+	private TextField searchField = new TextField("", "parseIntToByte", "Methods search...");
 	private Button searchHelpButton = new Button(new Icon(VaadinIcon.QUESTION_CIRCLE_O));
 	private Button repoStatusButton = new Button(new Icon(VaadinIcon.PLUG));
 

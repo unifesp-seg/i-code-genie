@@ -1,40 +1,61 @@
-Seg, 03/06/2019 11:20:47 - 
-Seg, 03/06/2019 11:20:47 - Genie Search API
-Seg, 03/06/2019 11:20:47 - 
-Seg, 03/06/2019 11:20:47 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Seg, 03/06/2019 11:20:47 - 
-Seg, 03/06/2019 11:20:47 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Seg, 03/06/2019 11:20:47 - database-url = jdbc:mysql://localhost:3306/test_repo
-Seg, 03/06/2019 11:20:47 - database-user = root
-Seg, 03/06/2019 11:20:47 - database-password = ***
-Seg, 03/06/2019 11:20:47 - webserver-url = http://localhost:8080
-Seg, 03/06/2019 11:20:47 - 
-Seg, 03/06/2019 11:20:47 - Genie Search API
-Seg, 03/06/2019 11:20:47 - 
-Seg, 03/06/2019 11:20:48 - 
-Seg, 03/06/2019 11:20:48 - Solr OFFLINE: http://localhost:8080/solr
-Seg, 03/06/2019 11:20:48 - 
-Seg, 03/06/2019 11:20:49 - 
-Seg, 03/06/2019 11:20:49 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Seg, 03/06/2019 11:20:50 - Solr Index Path configurado: null
-Seg, 03/06/2019 11:20:50 - 
-Seg, 03/06/2019 11:21:25 - 
-Seg, 03/06/2019 11:21:25 - Genie Search API
-Seg, 03/06/2019 11:21:25 - 
-Seg, 03/06/2019 11:21:25 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
-Seg, 03/06/2019 11:21:25 - 
-Seg, 03/06/2019 11:21:25 - input-repo = D:\Sourcerer_portable\repositories\test_repo
-Seg, 03/06/2019 11:21:25 - database-url = jdbc:mysql://localhost:3306/test_repo
-Seg, 03/06/2019 11:21:25 - database-user = root
-Seg, 03/06/2019 11:21:25 - database-password = ***
-Seg, 03/06/2019 11:21:25 - webserver-url = http://localhost:8080
-Seg, 03/06/2019 11:21:25 - 
-Seg, 03/06/2019 11:21:25 - Genie Search API
-Seg, 03/06/2019 11:21:25 - 
-Seg, 03/06/2019 11:21:26 - 
-Seg, 03/06/2019 11:21:26 - Solr OFFLINE: http://localhost:8080/solr
-Seg, 03/06/2019 11:21:26 - 
-Seg, 03/06/2019 11:21:27 - 
-Seg, 03/06/2019 11:21:27 - Solr Index Path esperado   : D:\Sourcerer_portable\repositories\test_repo\solr-repo\data\index
-Seg, 03/06/2019 11:21:28 - Solr Index Path configurado: null
-Seg, 03/06/2019 11:21:28 - 
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:10:37 - Genie Search API
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:10:37 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:10:37 - input-repo = F:\sourcerer_portable\repositories\genie_search_api_test
+Ter, 26/05/2020 15:10:37 - database-url = jdbc:mysql://localhost:3306/genie_search_api_test
+Ter, 26/05/2020 15:10:37 - database-user = root
+Ter, 26/05/2020 15:10:37 - database-password = ***
+Ter, 26/05/2020 15:10:37 - webserver-url = http://localhost:8080
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:10:37 - Genie Search API
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:11:19 - Genie Search API
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:11:19 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:11:19 - input-repo = F:\sourcerer_portable\repositories\genie_search_api_test
+Ter, 26/05/2020 15:11:19 - database-url = jdbc:mysql://localhost:3306/genie_search_api_test
+Ter, 26/05/2020 15:11:19 - database-user = root
+Ter, 26/05/2020 15:11:19 - database-password = ***
+Ter, 26/05/2020 15:11:19 - webserver-url = http://localhost:8080
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:11:19 - Genie Search API
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:12:46 - Entity_id: 1401027 Getting source code...
+Ter, 26/05/2020 15:12:57 - Entity_id: 1401027 Executing method...
+Ter, 26/05/2020 15:12:57 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Ter, 26/05/2020 15:12:57 - With values: 10
+Ter, 26/05/2020 15:12:57 - Result = 10
+Ter, 26/05/2020 15:12:57 - 
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Slicing...
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Generating compiled jar...
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Slicing...
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Extracting sliced zip file...
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Generating Build.xml...
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:15:32 - Genie Search API
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:15:32 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:15:32 - input-repo = F:\sourcerer_portable\repositories\genie_search_api_test
+Ter, 26/05/2020 15:15:32 - database-url = jdbc:mysql://localhost:3306/genie_search_api_test
+Ter, 26/05/2020 15:15:32 - database-user = root
+Ter, 26/05/2020 15:15:32 - database-password = ***
+Ter, 26/05/2020 15:15:32 - webserver-url = http://localhost:8080
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:15:32 - Genie Search API
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:16:12 - Entity_id: 1401026 Getting source code...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Slicing...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Generating compiled jar...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Slicing...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Extracting sliced zip file...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Generating Build.xml...
+Ter, 26/05/2020 15:16:32 - Entity_id: 1401026 Executing method...
+Ter, 26/05/2020 15:16:32 - Executing Method: public static int org.javathena.core.utiles.Functions.parseByteToInt(byte)
+Ter, 26/05/2020 15:16:32 - With values: 10
+Ter, 26/05/2020 15:16:32 - Result = 10
+Ter, 26/05/2020 15:16:32 - 
