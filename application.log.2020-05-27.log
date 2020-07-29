@@ -1,0 +1,61 @@
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:10:37 - Genie Search API
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:10:37 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:10:37 - input-repo = F:\sourcerer_portable\repositories\genie_search_api_test
+Ter, 26/05/2020 15:10:37 - database-url = jdbc:mysql://localhost:3306/genie_search_api_test
+Ter, 26/05/2020 15:10:37 - database-user = root
+Ter, 26/05/2020 15:10:37 - database-password = ***
+Ter, 26/05/2020 15:10:37 - webserver-url = http://localhost:8080
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:10:37 - Genie Search API
+Ter, 26/05/2020 15:10:37 - 
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:11:19 - Genie Search API
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:11:19 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:11:19 - input-repo = F:\sourcerer_portable\repositories\genie_search_api_test
+Ter, 26/05/2020 15:11:19 - database-url = jdbc:mysql://localhost:3306/genie_search_api_test
+Ter, 26/05/2020 15:11:19 - database-user = root
+Ter, 26/05/2020 15:11:19 - database-password = ***
+Ter, 26/05/2020 15:11:19 - webserver-url = http://localhost:8080
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:11:19 - Genie Search API
+Ter, 26/05/2020 15:11:19 - 
+Ter, 26/05/2020 15:12:46 - Entity_id: 1401027 Getting source code...
+Ter, 26/05/2020 15:12:57 - Entity_id: 1401027 Executing method...
+Ter, 26/05/2020 15:12:57 - Executing Method: public static byte org.javathena.core.utiles.Functions.parseIntToByte(int) throws java.lang.Exception
+Ter, 26/05/2020 15:12:57 - With values: 10
+Ter, 26/05/2020 15:12:57 - Result = 10
+Ter, 26/05/2020 15:12:57 - 
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Slicing...
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Generating compiled jar...
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Slicing...
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Extracting sliced zip file...
+Ter, 26/05/2020 15:13:07 - Entity_id: 1401027 Generating Build.xml...
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:15:32 - Genie Search API
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:15:32 - Arquivo de configuração: C:/GitHub/i-code-genie/target/classes/geniesearchapi.properties
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:15:32 - input-repo = F:\sourcerer_portable\repositories\genie_search_api_test
+Ter, 26/05/2020 15:15:32 - database-url = jdbc:mysql://localhost:3306/genie_search_api_test
+Ter, 26/05/2020 15:15:32 - database-user = root
+Ter, 26/05/2020 15:15:32 - database-password = ***
+Ter, 26/05/2020 15:15:32 - webserver-url = http://localhost:8080
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:15:32 - Genie Search API
+Ter, 26/05/2020 15:15:32 - 
+Ter, 26/05/2020 15:16:12 - Entity_id: 1401026 Getting source code...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Slicing...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Generating compiled jar...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Slicing...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Extracting sliced zip file...
+Ter, 26/05/2020 15:16:25 - Entity_id: 1401026 Generating Build.xml...
+Ter, 26/05/2020 15:16:32 - Entity_id: 1401026 Executing method...
+Ter, 26/05/2020 15:16:32 - Executing Method: public static int org.javathena.core.utiles.Functions.parseByteToInt(byte)
+Ter, 26/05/2020 15:16:32 - With values: 10
+Ter, 26/05/2020 15:16:32 - Result = 10
+Ter, 26/05/2020 15:16:32 - 
